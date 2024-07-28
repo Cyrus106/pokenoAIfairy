@@ -3314,6 +3314,45 @@ const u8 gAraquanidPokedexText[] = _(
 "text here \n"
 "text here");
 
+const u8 gSirfetchPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gNoivernPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gClawitzerPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gGalladePokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gLilligant2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gWyrdeerPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gMismagiusPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gGothitellePokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gAvaluggPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gDugtrio2PokedexText[] = _(
+"text here \n"
+"text here");
 
 
 

@@ -7369,4 +7369,116 @@ const struct PokedexEntry gPokedexEntries[] =
        .trainerScale = 290,
         .trainerOffset = 2,
 },
+
+    [NATIONAL_DEX_SIRFETCH] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gSirfetchPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_NOIVERN] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gNoivernPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_CLAWITZER] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gClawitzerPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_GALLADE] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gGalladePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_LILLIGANT2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gLilligant2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_WYRDEER] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gWyrdeerPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_MISMAGIUS] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gMismagiusPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_GOTHITELLE] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gGothitellePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_AVALUGG] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gAvaluggPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+},
+
+        [NATIONAL_DEX_DUGTRIO2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gDugtrio2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
 };

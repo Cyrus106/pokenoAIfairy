@@ -635,7 +635,16 @@ gCryTable::
     cry  Cry_Dhelmise 
     cry  Cry_Cursola 
     cry  Cry_Araquanid 
-
+    cry  Cry_Sirfetch 
+    cry  Cry_Noivern 
+    cry  Cry_Clawitzer 
+    cry  Cry_Gallade 
+    cry  Cry_Lilligant2 
+    cry  Cry_Wyrdeer 
+    cry  Cry_Mismagius 
+    cry  Cry_Gothitelle 
+    cry  Cry_Avalugg 
+    cry  Cry_Dugtrio2 
 	
 	.align 2
 gCryTable_Reverse::
@@ -1273,7 +1282,15 @@ gCryTable_Reverse::
     cry_reverse  Cry_Dhelmise 
     cry_reverse  Cry_Cursola 
     cry_reverse  Cry_Araquanid 
-
-	
+    cry_reverse  Cry_Sirfetch 
+    cry_reverse  Cry_Noivern 
+    cry_reverse  Cry_Clawitzer 
+    cry_reverse  Cry_Gallade 
+    cry_reverse  Cry_Lilligant2 
+    cry_reverse  Cry_Wyrdeer 
+    cry_reverse  Cry_Mismagius 
+    cry_reverse  Cry_Gothitelle 
+    cry_reverse  Cry_Avalugg 
+    cry_reverse  Cry_Dugtrio2 	
 
 	

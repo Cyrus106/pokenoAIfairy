@@ -4496,6 +4496,13 @@ const u32 gMonBackPic_Avalugg[] = INCBIN_U32("graphics/pokemon/avalugg/back.4bpp
 const u32 gMonShinyPalette_Avalugg[] = INCBIN_U32("graphics/pokemon/avalugg/shiny.gbapal.lz");
 const u8 gMonIcon_Avalugg[] = INCBIN_U8("graphics/pokemon/avalugg/icon.4bpp");
 const u8 gMonFootprint_Avalugg[] = INCBIN_U8("graphics/pokemon/avalugg/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Dugtrio2[] = INCBIN_U32("graphics/pokemon/dugtrio2/front.4bpp.lz");
+const u32 gMonPalette_Dugtrio2[] = INCBIN_U32("graphics/pokemon/dugtrio2/normal.gbapal.lz");
+const u32 gMonBackPic_Dugtrio2[] = INCBIN_U32("graphics/pokemon/dugtrio2/back.4bpp.lz");
+const u32 gMonShinyPalette_Dugtrio2[] = INCBIN_U32("graphics/pokemon/dugtrio2/shiny.gbapal.lz");
+const u8 gMonIcon_Dugtrio2[] = INCBIN_U8("graphics/pokemon/dugtrio2/icon.4bpp");
+const u8 gMonFootprint_Dugtrio2[] = INCBIN_U8("graphics/pokemon/dugtrio2/footprint.1bpp");
 //Don't go past this point
 const u32 gMonStillFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/front.4bpp.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");

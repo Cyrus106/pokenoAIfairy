@@ -10405,6 +10405,87 @@ const u16 sAraquanidLevelUpLearnset[] = {
 };
 
 
+const u16 sSirfetchLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sNoivernLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sClawitzerLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sGalladeLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sLilligant2LevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sWyrdeerLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sMismagiusLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sGothitelleLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sAvaluggLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+static const u16 sDugtrio2LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TRI_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
+    LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_MOVE( 5, MOVE_GROWL),
+    LEVEL_UP_MOVE( 9, MOVE_MAGNITUDE),
+    LEVEL_UP_MOVE(17, MOVE_DIG),
+    LEVEL_UP_MOVE(25, MOVE_MUD_SLAP),
+    LEVEL_UP_MOVE(26, MOVE_SAND_TOMB),
+    LEVEL_UP_MOVE(38, MOVE_SLASH),
+    LEVEL_UP_MOVE(51, MOVE_EARTHQUAKE),
+    LEVEL_UP_MOVE(64, MOVE_FISSURE),
+    LEVEL_UP_END
+};
+
+
+
 
 
 

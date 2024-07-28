@@ -2922,7 +2922,45 @@ Cry_Cursola::
 Cry_Araquanid:: 
    .incbin "sound/direct_sound_samples/cries/araquanid.bin"
 
+	   .align 2
+Cry_Sirfetch:: 
+   .incbin "sound/direct_sound_samples/cries/sirfetch.bin"
 
+   .align 2
+Cry_Noivern:: 
+   .incbin "sound/direct_sound_samples/cries/noivern.bin"
+
+   .align 2
+Cry_Clawitzer:: 
+   .incbin "sound/direct_sound_samples/cries/clawitzer.bin"
+
+   .align 2
+Cry_Gallade:: 
+   .incbin "sound/direct_sound_samples/cries/gallade.bin"
+
+   .align 2
+Cry_Lilligant2:: 
+   .incbin "sound/direct_sound_samples/cries/lilligant.bin"
+
+   .align 2
+Cry_Wyrdeer:: 
+   .incbin "sound/direct_sound_samples/cries/wyrdeer.bin"
+
+   .align 2
+Cry_Mismagius:: 
+   .incbin "sound/direct_sound_samples/cries/mismagius.bin"
+
+   .align 2
+Cry_Gothitelle:: 
+   .incbin "sound/direct_sound_samples/cries/gothitelle.bin"
+
+   .align 2
+Cry_Avalugg:: 
+   .incbin "sound/direct_sound_samples/cries/avalugg.bin"
+
+	.align 2
+Cry_Dugtrio2:: 
+   .incbin "sound/direct_sound_samples/cries/dugtrio.bin"
 
 
 

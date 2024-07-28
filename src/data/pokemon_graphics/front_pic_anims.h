@@ -6365,6 +6365,13 @@ static const union AnimCmd sAnim_AVALUGG_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_DUGTRIO2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
 
 
 //Don't go past this point
@@ -9868,6 +9875,11 @@ static const union AnimCmd *const sAnims_AVALUGG[]={
     sAnim_GeneralFrame0,
     sAnim_AVALUGG_1
 };
+
+static const union AnimCmd *const sAnims_DUGTRIO2[]={
+    sAnim_GeneralFrame0,
+    sAnim_DUGTRIO2_1
+};
 //don't write past this point
 
 static const union AnimCmd *const sAnims_EGG[] ={
@@ -10682,6 +10694,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(MISMAGIUS),
     ANIM_CMD(GOTHITELLE),
     ANIM_CMD(AVALUGG),
+    ANIM_CMD(DUGTRIO2),
     //don't write past this
     ANIM_CMD(EGG),
     ANIM_CMD(UNOWN_B),
