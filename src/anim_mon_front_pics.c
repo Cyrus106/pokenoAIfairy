@@ -638,6 +638,15 @@ const u32 gMonFrontPic_Toxapex[] = INCBIN_U32("graphics/pokemon/toxapex/anim_fro
 const u32 gMonFrontPic_Dhelmise[] = INCBIN_U32("graphics/pokemon/dhelmise/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Cursola[] = INCBIN_U32("graphics/pokemon/cursola/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Araquanid[] = INCBIN_U32("graphics/pokemon/araquanid/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Sirfetch[] = INCBIN_U32("graphics/pokemon/sirfetch/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Noivern[] = INCBIN_U32("graphics/pokemon/noivern/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Clawitzer[] = INCBIN_U32("graphics/pokemon/clawitzer/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Gallade[] = INCBIN_U32("graphics/pokemon/gallade/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Lilligant2[] = INCBIN_U32("graphics/pokemon/lilligant2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Wyrdeer[] = INCBIN_U32("graphics/pokemon/wyrdeer/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Mismagius[] = INCBIN_U32("graphics/pokemon/mismagius/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Gothitelle[] = INCBIN_U32("graphics/pokemon/gothitelle/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Avalugg[] = INCBIN_U32("graphics/pokemon/avalugg/anim_front.4bpp.lz");
 //Don't write past this point
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 

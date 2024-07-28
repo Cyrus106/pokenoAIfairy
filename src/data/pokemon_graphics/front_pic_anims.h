@@ -6302,6 +6302,69 @@ static const union AnimCmd sAnim_ARAQUANID_1[] =
     ANIMCMD_END,	
 };	
 
+static const union AnimCmd sAnim_SIRFETCH_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_NOIVERN_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_CLAWITZER_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_GALLADE_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_LILLIGANT2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_WYRDEER_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_MISMAGIUS_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_GOTHITELLE_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_AVALUGG_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
 
 
 //Don't go past this point
@@ -9760,6 +9823,51 @@ static const union AnimCmd *const sAnims_ARAQUANID[]={
     sAnim_GeneralFrame0,
     sAnim_ARAQUANID_1
 };
+
+static const union AnimCmd *const sAnims_SIRFETCH[]={
+    sAnim_GeneralFrame0,
+    sAnim_SIRFETCH_1
+};
+
+static const union AnimCmd *const sAnims_NOIVERN[]={
+    sAnim_GeneralFrame0,
+    sAnim_NOIVERN_1
+};
+
+static const union AnimCmd *const sAnims_CLAWITZER[]={
+    sAnim_GeneralFrame0,
+    sAnim_CLAWITZER_1
+};
+
+static const union AnimCmd *const sAnims_GALLADE[]={
+    sAnim_GeneralFrame0,
+    sAnim_GALLADE_1
+};
+
+static const union AnimCmd *const sAnims_LILLIGANT2[]={
+    sAnim_GeneralFrame0,
+    sAnim_LILLIGANT2_1
+};
+
+static const union AnimCmd *const sAnims_WYRDEER[]={
+    sAnim_GeneralFrame0,
+    sAnim_WYRDEER_1
+};
+
+static const union AnimCmd *const sAnims_MISMAGIUS[]={
+    sAnim_GeneralFrame0,
+    sAnim_MISMAGIUS_1
+};
+
+static const union AnimCmd *const sAnims_GOTHITELLE[]={
+    sAnim_GeneralFrame0,
+    sAnim_GOTHITELLE_1
+};
+
+static const union AnimCmd *const sAnims_AVALUGG[]={
+    sAnim_GeneralFrame0,
+    sAnim_AVALUGG_1
+};
 //don't write past this point
 
 static const union AnimCmd *const sAnims_EGG[] ={
@@ -10565,6 +10673,15 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(DHELMISE),
     ANIM_CMD(CURSOLA),
     ANIM_CMD(ARAQUANID),
+    ANIM_CMD(SIRFETCH),
+    ANIM_CMD(NOIVERN),
+    ANIM_CMD(CLAWITZER),
+    ANIM_CMD(GALLADE),
+    ANIM_CMD(LILLIGANT2),
+    ANIM_CMD(WYRDEER),
+    ANIM_CMD(MISMAGIUS),
+    ANIM_CMD(GOTHITELLE),
+    ANIM_CMD(AVALUGG),
     //don't write past this
     ANIM_CMD(EGG),
     ANIM_CMD(UNOWN_B),
