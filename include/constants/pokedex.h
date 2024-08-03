@@ -649,6 +649,15 @@ enum {
     NATIONAL_DEX_GOTHITELLE,
     NATIONAL_DEX_AVALUGG,
     NATIONAL_DEX_DUGTRIO2,
+    NATIONAL_DEX_BLACEPHALON,
+    NATIONAL_DEX_FERROSEED,
+    NATIONAL_DEX_FERROTHORN,
+    NATIONAL_DEX_GLISCOR,
+    NATIONAL_DEX_LUGIA2,
+    NATIONAL_DEX_NIHILEGO,
+    NATIONAL_DEX_TOGEKISS,
+    NATIONAL_DEX_TYPHLOSION2,
+    NATIONAL_DEX_XURKITREE,
 
     // Old Unown
     NATIONAL_DEX_OLD_UNOWN_B,
@@ -681,7 +690,7 @@ enum {
 
 #define KANTO_DEX_COUNT     NATIONAL_DEX_MEW
 #define JOHTO_DEX_COUNT     NATIONAL_DEX_CELEBI
-#define NATIONAL_DEX_COUNT  NATIONAL_DEX_DUGTRIO2 	 //Just edit the last pokemon to be the last one you made
+#define NATIONAL_DEX_COUNT  NATIONAL_DEX_XURKITREE	 //Just edit the last pokemon to be the last one you made
 
 // Hoenn Pokedex order
 enum {
@@ -1144,6 +1153,15 @@ enum {
     HOENN_DEX_GOTHITELLE,
     HOENN_DEX_AVALUGG,
     HOENN_DEX_DUGTRIO2,
+    HOENN_DEX_BLACEPHALON,
+    HOENN_DEX_FERROSEED,
+    HOENN_DEX_FERROTHORN,
+    HOENN_DEX_GLISCOR,
+    HOENN_DEX_LUGIA2,
+    HOENN_DEX_NIHILEGO,
+    HOENN_DEX_TOGEKISS,
+    HOENN_DEX_TYPHLOSION2,
+    HOENN_DEX_XURKITREE,
 
     //Add your last pokemon here
     // End of Hoenn Dex (see HOENN_DEX_COUNT)
@@ -1360,6 +1378,6 @@ enum {
     
 };
 
-#define HOENN_DEX_COUNT    HOENN_DEX_DUGTRIO2 //Change the pokemon to be the last in the entry
+#define HOENN_DEX_COUNT    HOENN_DEX_XURKITREE //Change the pokemon to be the last in the entry
 
 #endif // GUARD_CONSTANTS_POKEDEX_H

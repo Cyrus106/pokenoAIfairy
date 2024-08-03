@@ -645,6 +645,15 @@ gCryTable::
     cry  Cry_Gothitelle 
     cry  Cry_Avalugg 
     cry  Cry_Dugtrio2 
+    cry  Cry_Blacephalon 
+    cry  Cry_Ferroseed 
+    cry  Cry_Ferrothorn 
+    cry  Cry_Gliscor 
+    cry  Cry_Lugia2 
+    cry  Cry_Nihilego 
+    cry  Cry_Togekiss 
+    cry  Cry_Typhlosion2 
+    cry  Cry_Xurkitree 
 	
 	.align 2
 gCryTable_Reverse::
@@ -1292,5 +1301,14 @@ gCryTable_Reverse::
     cry_reverse  Cry_Gothitelle 
     cry_reverse  Cry_Avalugg 
     cry_reverse  Cry_Dugtrio2 	
+    cry_reverse  Cry_Blacephalon 
+    cry_reverse  Cry_Ferroseed 
+    cry_reverse  Cry_Ferrothorn 
+    cry_reverse  Cry_Gliscor 
+    cry_reverse  Cry_Lugia2 
+    cry_reverse  Cry_Nihilego 
+    cry_reverse  Cry_Togekiss 
+    cry_reverse  Cry_Typhlosion2 
+    cry_reverse  Cry_Xurkitree 
 
 	

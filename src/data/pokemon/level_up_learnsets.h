@@ -10484,6 +10484,70 @@ static const u16 sDugtrio2LevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+const u16 sBlacephalonLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sFerroseedLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sFerrothornLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sGliscorLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sLugia2LevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sNihilegoLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sTogekissLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sTyphlosion2LevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sXurkitreeLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+
 
 
 

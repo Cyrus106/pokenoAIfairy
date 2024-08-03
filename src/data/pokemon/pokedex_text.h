@@ -3354,6 +3354,42 @@ const u8 gDugtrio2PokedexText[] = _(
 "text here \n"
 "text here");
 
+const u8 gBlacephalonPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gFerroseedPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gFerrothornPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gGliscorPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gLugia2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gNihilegoPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gTogekissPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gTyphlosion2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gXurkitreePokedexText[] = _(
+"text here \n"
+"text here");
+
 
 
 

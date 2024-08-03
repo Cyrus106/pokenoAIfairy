@@ -668,4 +668,13 @@ const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_GOTHITELLE] = sGothitelleLevelUpLearnset,
     [SPECIES_AVALUGG] = sAvaluggLevelUpLearnset,
     [SPECIES_DUGTRIO2] = sDugtrio2LevelUpLearnset,
+    [SPECIES_BLACEPHALON] = sBlacephalonLevelUpLearnset,
+    [SPECIES_FERROSEED] = sFerroseedLevelUpLearnset,
+    [SPECIES_FERROTHORN] = sFerrothornLevelUpLearnset,
+    [SPECIES_GLISCOR] = sGliscorLevelUpLearnset,
+    [SPECIES_LUGIA2] = sLugia2LevelUpLearnset,
+    [SPECIES_NIHILEGO] = sNihilegoLevelUpLearnset,
+    [SPECIES_TOGEKISS] = sTogekissLevelUpLearnset,
+    [SPECIES_TYPHLOSION2] = sTyphlosion2LevelUpLearnset,
+    [SPECIES_XURKITREE] = sXurkitreeLevelUpLearnset,
 };

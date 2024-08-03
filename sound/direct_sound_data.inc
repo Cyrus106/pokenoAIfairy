@@ -2962,6 +2962,43 @@ Cry_Avalugg::
 Cry_Dugtrio2:: 
    .incbin "sound/direct_sound_samples/cries/dugtrio.bin"
 
+      .align 2
+Cry_Blacephalon:: 
+   .incbin "sound/direct_sound_samples/cries/blacephalon.bin"
+
+   .align 2
+Cry_Ferroseed:: 
+   .incbin "sound/direct_sound_samples/cries/ferroseed.bin"
+
+   .align 2
+Cry_Ferrothorn:: 
+   .incbin "sound/direct_sound_samples/cries/ferrothorn.bin"
+
+   .align 2
+Cry_Gliscor:: 
+   .incbin "sound/direct_sound_samples/cries/gliscor.bin"
+
+   .align 2
+Cry_Lugia2:: 
+   .incbin "sound/direct_sound_samples/cries/lugia.bin"
+
+   .align 2
+Cry_Nihilego:: 
+   .incbin "sound/direct_sound_samples/cries/nihilego.bin"
+
+   .align 2
+Cry_Togekiss:: 
+   .incbin "sound/direct_sound_samples/cries/togekiss.bin"
+
+   .align 2
+Cry_Typhlosion2:: 
+   .incbin "sound/direct_sound_samples/cries/typhlosion.bin"
+
+   .align 2
+Cry_Xurkitree:: 
+   .incbin "sound/direct_sound_samples/cries/xurkitree.bin"
+
+
 
 
 

@@ -7481,4 +7481,104 @@ const struct PokedexEntry gPokedexEntries[] =
        .trainerScale = 290,
         .trainerOffset = 2,
     },
+
+        [NATIONAL_DEX_BLACEPHALON] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gBlacephalonPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_FERROSEED] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gFerroseedPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_FERROTHORN] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gFerrothornPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_GLISCOR] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gGliscorPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_LUGIA2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gLugia2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_NIHILEGO] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gNihilegoPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_TOGEKISS] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gTogekissPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_TYPHLOSION2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gTyphlosion2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_XURKITREE] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gXurkitreePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+},
 };
