@@ -1310,5 +1310,3 @@ gCryTable_Reverse::
     cry_reverse  Cry_Togekiss 
     cry_reverse  Cry_Typhlosion2 
     cry_reverse  Cry_Xurkitree 
-
-	
