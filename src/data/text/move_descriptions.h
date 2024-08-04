@@ -1676,7 +1676,9 @@ static const u8 sBraveBirdDescription[] = _(
    "A life-risking swoop that\n"
     "also hurts the user.");
    
-
+ static const u8 sBulletPunch2Description[] = _(
+    "An extremely fast attack\n"
+    "that always strikes first.");
 
 
 
@@ -2100,4 +2102,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_FORCE_PALM - 1] = sForcePlamDescription,
     [MOVE_INF_PARADE - 1] = sInfParadeDescription,
     [MOVE_BRAVE_BIRD - 1] = sBraveBirdDescription,
+    [MOVE_BULLET_PUNCH_2 - 1] = sBulletPunch2Description,
 };

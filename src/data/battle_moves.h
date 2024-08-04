@@ -5232,7 +5232,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
      [MOVE_BULLET_PUNCH] =
     {
         .effect = EFFECT_QUICK_ATTACK,
-        .power = 60, //since there is no technician
+        .power = 40, //since there is no technician there are two of these. the 2nd is the technician one
         .type = TYPE_STEEL,
         .accuracy = 100,
         .pp = 30,
@@ -5384,6 +5384,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
     },
+
+    [MOVE_BULLET_PUNCH_2] =
+    {
+        .effect = EFFECT_QUICK_ATTACK,
+        .power = 60, //since there is no technician
+        .type = TYPE_STEEL,
+        .accuracy = 100,
+        .pp = 30,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 1,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+    },
+
 
 
 

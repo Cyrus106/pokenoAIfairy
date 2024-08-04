@@ -430,6 +430,7 @@ gBattleAnims_Moves::
 	.4byte Move_FORCE_PALM
 	.4byte Move_INF_PARADE
 	.4byte Move_BRAVE_BIRD
+	.4byte Move_BULLET_PUNCH_2
 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
@@ -10749,6 +10750,37 @@ ParadeSwirl:
 	delay 0x2
 	return
 
+Move_BULLET_PUNCH_2:
+	loadspritegfx ANIM_TAG_IMPACT
+	loadspritegfx ANIM_TAG_HANDS_AND_FEET
+	monbg ANIM_ATK_PARTNER
+	createvisualtask AnimTask_GetAttackerSide, 2
+	jumprettrue BulletPunchAgainstPlayer2
+	fadetobg BG_HIGHSPEED_OPPONENT
+BulletPunchContinue2:
+	waitbgfadeout
+	createvisualtask AnimTask_StartSlidingBg, 5, -2304, 0, 1, -1
+	waitbgfadein
+	delay 0
+	setalpha 9, 8
+	createvisualtask AnimTask_AttackerPunchWithTrace, 2, RGB(8, 9, 28), 10
+	playsewithpan SE_M_JUMP_KICK, SOUND_PAN_ATTACKER
+	delay 6
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_TARGET, 3, 0, 0, ANIM_TARGET, 1
+	createsprite gFistFootSpriteTemplate, ANIM_TARGET, 4, 0, 0, 8, 1, 0
+	playsewithpan SE_M_COMET_PUNCH, SOUND_PAN_TARGET
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_ATK_PARTNER
+	blendoff
+	restorebg
+	waitbgfadeout
+	setarg 7, 0xFFFF
+	waitbgfadein
+	end
+BulletPunchAgainstPlayer2:
+	fadetobg BG_HIGHSPEED_PLAYER
+	goto BulletPunchContinue2
 
 
 Move_DRAGON_CLAW:
