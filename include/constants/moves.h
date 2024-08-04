@@ -410,8 +410,13 @@
 #define MOVE_OMINOUS_WIND 406
 #define MOVE_PHANTOM_FORCE 407
 #define MOVE_RAGING_FURY 408
+#define MOVE_NIGHT_SLASH 409
+#define MOVE_FOCUS_BLAST 410
+#define MOVE_FORCE_PALM 411
+#define MOVE_INF_PARADE 412
+#define MOVE_BRAVE_BIRD 413
 
-#define MOVES_COUNT 409
+#define MOVES_COUNT 414
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

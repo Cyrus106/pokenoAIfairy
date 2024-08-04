@@ -1653,6 +1653,28 @@ static const u8 sPhantomForceDescription[] = _(
 static const u8 sRagingFuryDescription[] = _(
   "A rampage of 2 to 3 turns\n"
     "that confuses the user.");
+
+static const u8 sNightSlashDescription[] = _(
+   "Slashes with claws, etc. Has\n"
+    "a high critical-hit ratio.");
+
+static const u8 sFocusBlastDescription[] = _(
+  "A powerful fighting move\n"
+    "that may lower SP. DEF.");
+
+static const u8 sForcePlamDescription[] = _(
+ "An fighting attack that\n"
+    "may paralyze the foe.");
+
+
+static const u8 sInfParadeDescription[] = _(
+  "A powerful ghost attack that\n"
+    "may inflict a burn.");
+
+
+static const u8 sBraveBirdDescription[] = _(
+   "A life-risking swoop that\n"
+    "also hurts the user.");
    
 
 
@@ -2073,4 +2095,9 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_OMINOUS_WIND - 1] = sOminousWindDescription,
     [MOVE_PHANTOM_FORCE - 1] = sPhantomForceDescription,
     [MOVE_RAGING_FURY - 1] = sRagingFuryDescription,
+    [MOVE_NIGHT_SLASH - 1] = sNightSlashDescription,
+    [MOVE_FOCUS_BLAST - 1] = sFocusBlastDescription,
+    [MOVE_FORCE_PALM - 1] = sForcePlamDescription,
+    [MOVE_INF_PARADE - 1] = sInfParadeDescription,
+    [MOVE_BRAVE_BIRD - 1] = sBraveBirdDescription,
 };
