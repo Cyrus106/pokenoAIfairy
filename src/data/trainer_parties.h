@@ -4366,7 +4366,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Calvin1[] = {
     .iv = 0,
     .lvl = 6,
     .species = SPECIES_LILLIPUP,
-    .moves = {MOVE_TACKLE, MOVE_BITE, MOVE_SAND_ATTACK, MOVE_NONE}
+   .moves = {MOVE_TACKLE, MOVE_BITE, MOVE_SAND_ATTACK, MOVE_NONE}
     },
     {
     .iv = 0,
@@ -4568,21 +4568,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Eddie[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Allen[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Allen[] = {
     {
     .iv = 0,
-    .lvl = 5,
-    .species = SPECIES_POOCHYENA,
+    .lvl = 6,
+    .species = SPECIES_SKIDDO,
+    .moves = {MOVE_VINE_WHIP, MOVE_TACKLE, MOVE_NONE, MOVE_NONE}
     },
      {
     .iv = 0,
-    .lvl = 5,
-    .species = SPECIES_PIDGEY,
+    .lvl = 6,
+    .species = SPECIES_GROWLITHE,
+    .moves = {MOVE_SCRATCH, MOVE_EMBER, MOVE_LEER, MOVE_NONE}
     },
     {
     .iv = 0,
-    .lvl = 4,
-    .species = SPECIES_TAILLOW,
+    .lvl = 7,
+    .species = SPECIES_PSYDUCK,
+    .moves = {MOVE_BUBBLE, MOVE_CONFUSION, MOVE_DISABLE, MOVE_NONE}
     }
 };
 
@@ -8242,26 +8245,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMtChimney[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
+static const struct TrainerMonItemCustomMoves sParty_Tiana[] = {
     {
     .iv = 0,
-    .lvl = 4,
-    .species = SPECIES_ZIGZAGOON,
+    .lvl = 7,
+    .species = SPECIES_IGGLYBUFF,
+    .heldItem = ITEM_BERRY_JUICE,
+    .moves = {MOVE_FAIRY_WIND, MOVE_METRONOME, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
-    .lvl = 4,
-    .species = SPECIES_HOOTHOOT,
+    .lvl = 7,
+    .species = SPECIES_SPINDA,
+    .heldItem = ITEM_BERRY_JUICE,
+    .moves = {MOVE_FAKE_OUT, MOVE_METRONOME, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
-    .lvl = 5,
-    .species = SPECIES_SENTRET,
-    },
-    {
-    .iv = 0,
-    .lvl = 5,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 8,
+    .species = SPECIES_TOGEPI,
+    .heldItem = ITEM_BERRY_JUICE,
+    .moves = {MOVE_POUND, MOVE_METRONOME, MOVE_NONE, MOVE_NONE}
     }
 };
 
