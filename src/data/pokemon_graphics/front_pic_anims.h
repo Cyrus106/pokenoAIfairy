@@ -6435,6 +6435,55 @@ static const union AnimCmd sAnim_XURKITREE_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_DIALGA_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_ALTARIA2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_BLASTOISE2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_SCEPTILE2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_SWAMPERT2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_WALKINGWAKE_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_RAGINGBOLT_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
 
 
 //Don't go past this point
@@ -9988,6 +10037,41 @@ static const union AnimCmd *const sAnims_XURKITREE[]={
     sAnim_GeneralFrame0,
     sAnim_XURKITREE_1
 };
+
+static const union AnimCmd *const sAnims_DIALGA[]={
+    sAnim_GeneralFrame0,
+    sAnim_DIALGA_1
+};
+
+static const union AnimCmd *const sAnims_ALTARIA2[]={
+    sAnim_GeneralFrame0,
+    sAnim_ALTARIA2_1
+};
+
+static const union AnimCmd *const sAnims_BLASTOISE2[]={
+    sAnim_GeneralFrame0,
+    sAnim_BLASTOISE2_1
+};
+
+static const union AnimCmd *const sAnims_SCEPTILE2[]={
+    sAnim_GeneralFrame0,
+    sAnim_SCEPTILE2_1
+};
+
+static const union AnimCmd *const sAnims_SWAMPERT2[]={
+    sAnim_GeneralFrame0,
+    sAnim_SWAMPERT2_1
+};
+
+static const union AnimCmd *const sAnims_WALKINGWAKE[]={
+    sAnim_GeneralFrame0,
+    sAnim_WALKINGWAKE_1
+};
+
+static const union AnimCmd *const sAnims_RAGINGBOLT[]={
+    sAnim_GeneralFrame0,
+    sAnim_RAGINGBOLT_1
+};
 //don't write past this point
 
 static const union AnimCmd *const sAnims_EGG[] ={
@@ -10812,6 +10896,13 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(TOGEKISS),
     ANIM_CMD(TYPHLOSION2),
     ANIM_CMD(XURKITREE),
+    ANIM_CMD(DIALGA),
+    ANIM_CMD(ALTARIA2),
+    ANIM_CMD(BLASTOISE2),
+    ANIM_CMD(SCEPTILE2),
+    ANIM_CMD(SWAMPERT2),
+    ANIM_CMD(WALKINGWAKE),
+    ANIM_CMD(RAGINGBOLT),
     //don't write past this
     ANIM_CMD(EGG),
     ANIM_CMD(UNOWN_B),

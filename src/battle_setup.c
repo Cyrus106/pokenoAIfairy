@@ -932,11 +932,11 @@ static void CB2_GiveStarter(void)
     *GetVarPointer(VAR_STARTER_MON) = gSpecialVar_Result;
     starterMon = GetStarterPokemon(gSpecialVar_Result);
     ScriptGiveMon(starterMon, 5, ITEM_NONE, 0, 0, 0);
-   // ScriptGiveMon(SPECIES_NIHILEGO, 5, ITEM_NONE, 0, 0, 0);
-    //ScriptGiveMon(SPECIES_TOGEKISS, 5, ITEM_NONE, 0, 0, 0);
-   // ScriptGiveMon(SPECIES_TYPHLOSION2, 5, ITEM_NONE, 0, 0, 0);
-   // ScriptGiveMon(SPECIES_XURKITREE, 5, ITEM_NONE, 0, 0, 0);
-   // ScriptGiveMon(SPECIES_LUGIA2, 5, ITEM_NONE, 0, 0, 0);
+    ScriptGiveMon(SPECIES_DIALGA, 5, ITEM_NONE, 0, 0, 0);
+    ScriptGiveMon(SPECIES_ALTARIA2, 5, ITEM_NONE, 0, 0, 0);
+    ScriptGiveMon(SPECIES_BLASTOISE2, 5, ITEM_NONE, 0, 0, 0);
+    ScriptGiveMon(SPECIES_SCEPTILE2, 5, ITEM_NONE, 0, 0, 0);
+    ScriptGiveMon(SPECIES_SWAMPERT2, 5, ITEM_NONE, 0, 0, 0);
     ResetTasks();
     PlayBattleBGM();
     SetMainCallback2(CB2_StartFirstBattle);

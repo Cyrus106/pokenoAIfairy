@@ -4567,6 +4567,55 @@ const u32 gMonShinyPalette_Xurkitree[] = INCBIN_U32("graphics/pokemon/xurkitree/
 const u8 gMonIcon_Xurkitree[] = INCBIN_U8("graphics/pokemon/xurkitree/icon.4bpp");
 const u8 gMonFootprint_Xurkitree[] = INCBIN_U8("graphics/pokemon/xurkitree/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Dialga[] = INCBIN_U32("graphics/pokemon/dialga/front.4bpp.lz");
+const u32 gMonPalette_Dialga[] = INCBIN_U32("graphics/pokemon/dialga/normal.gbapal.lz");
+const u32 gMonBackPic_Dialga[] = INCBIN_U32("graphics/pokemon/dialga/back.4bpp.lz");
+const u32 gMonShinyPalette_Dialga[] = INCBIN_U32("graphics/pokemon/dialga/shiny.gbapal.lz");
+const u8 gMonIcon_Dialga[] = INCBIN_U8("graphics/pokemon/dialga/icon.4bpp");
+const u8 gMonFootprint_Dialga[] = INCBIN_U8("graphics/pokemon/dialga/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Altaria2[] = INCBIN_U32("graphics/pokemon/altaria2/front.4bpp.lz");
+const u32 gMonPalette_Altaria2[] = INCBIN_U32("graphics/pokemon/altaria2/normal.gbapal.lz");
+const u32 gMonBackPic_Altaria2[] = INCBIN_U32("graphics/pokemon/altaria2/back.4bpp.lz");
+const u32 gMonShinyPalette_Altaria2[] = INCBIN_U32("graphics/pokemon/altaria2/shiny.gbapal.lz");
+const u8 gMonIcon_Altaria2[] = INCBIN_U8("graphics/pokemon/altaria2/icon.4bpp");
+const u8 gMonFootprint_Altaria2[] = INCBIN_U8("graphics/pokemon/altaria2/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Blastoise2[] = INCBIN_U32("graphics/pokemon/blastoise2/front.4bpp.lz");
+const u32 gMonPalette_Blastoise2[] = INCBIN_U32("graphics/pokemon/blastoise2/normal.gbapal.lz");
+const u32 gMonBackPic_Blastoise2[] = INCBIN_U32("graphics/pokemon/blastoise2/back.4bpp.lz");
+const u32 gMonShinyPalette_Blastoise2[] = INCBIN_U32("graphics/pokemon/blastoise2/shiny.gbapal.lz");
+const u8 gMonIcon_Blastoise2[] = INCBIN_U8("graphics/pokemon/blastoise2/icon.4bpp");
+const u8 gMonFootprint_Blastoise2[] = INCBIN_U8("graphics/pokemon/blastoise2/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Sceptile2[] = INCBIN_U32("graphics/pokemon/sceptile2/front.4bpp.lz");
+const u32 gMonPalette_Sceptile2[] = INCBIN_U32("graphics/pokemon/sceptile2/normal.gbapal.lz");
+const u32 gMonBackPic_Sceptile2[] = INCBIN_U32("graphics/pokemon/sceptile2/back.4bpp.lz");
+const u32 gMonShinyPalette_Sceptile2[] = INCBIN_U32("graphics/pokemon/sceptile2/shiny.gbapal.lz");
+const u8 gMonIcon_Sceptile2[] = INCBIN_U8("graphics/pokemon/sceptile2/icon.4bpp");
+const u8 gMonFootprint_Sceptile2[] = INCBIN_U8("graphics/pokemon/sceptile2/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Swampert2[] = INCBIN_U32("graphics/pokemon/swampert2/front.4bpp.lz");
+const u32 gMonPalette_Swampert2[] = INCBIN_U32("graphics/pokemon/swampert2/normal.gbapal.lz");
+const u32 gMonBackPic_Swampert2[] = INCBIN_U32("graphics/pokemon/swampert2/back.4bpp.lz");
+const u32 gMonShinyPalette_Swampert2[] = INCBIN_U32("graphics/pokemon/swampert2/shiny.gbapal.lz");
+const u8 gMonIcon_Swampert2[] = INCBIN_U8("graphics/pokemon/swampert2/icon.4bpp");
+const u8 gMonFootprint_Swampert2[] = INCBIN_U8("graphics/pokemon/swampert2/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Walkingwake[] = INCBIN_U32("graphics/pokemon/walkingwake/front.4bpp.lz");
+const u32 gMonPalette_Walkingwake[] = INCBIN_U32("graphics/pokemon/walkingwake/normal.gbapal.lz");
+const u32 gMonBackPic_Walkingwake[] = INCBIN_U32("graphics/pokemon/walkingwake/back.4bpp.lz");
+const u32 gMonShinyPalette_Walkingwake[] = INCBIN_U32("graphics/pokemon/walkingwake/shiny.gbapal.lz");
+const u8 gMonIcon_Walkingwake[] = INCBIN_U8("graphics/pokemon/walkingwake/icon.4bpp");
+const u8 gMonFootprint_Walkingwake[] = INCBIN_U8("graphics/pokemon/walkingwake/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Ragingbolt[] = INCBIN_U32("graphics/pokemon/ragingbolt/front.4bpp.lz");
+const u32 gMonPalette_Ragingbolt[] = INCBIN_U32("graphics/pokemon/ragingbolt/normal.gbapal.lz");
+const u32 gMonBackPic_Ragingbolt[] = INCBIN_U32("graphics/pokemon/ragingbolt/back.4bpp.lz");
+const u32 gMonShinyPalette_Ragingbolt[] = INCBIN_U32("graphics/pokemon/ragingbolt/shiny.gbapal.lz");
+const u8 gMonIcon_Ragingbolt[] = INCBIN_U8("graphics/pokemon/ragingbolt/icon.4bpp");
+const u8 gMonFootprint_Ragingbolt[] = INCBIN_U8("graphics/pokemon/ragingbolt/footprint.1bpp");
+
 //Don't go past this point
 const u32 gMonStillFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/front.4bpp.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");

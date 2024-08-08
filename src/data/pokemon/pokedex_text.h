@@ -3390,6 +3390,33 @@ const u8 gXurkitreePokedexText[] = _(
 "text here \n"
 "text here");
 
+const u8 gDialgaPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gAltaria2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gBlastoise2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gSceptile2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gSwampert2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gWalkingwakePokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gRagingboltPokedexText[] = _(
+"text here \n"
+"text here");
 
 
 

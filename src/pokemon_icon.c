@@ -701,6 +701,13 @@ const u8 *const gMonIconTable[] =
     [SPECIES_TOGEKISS] = gMonIcon_Togekiss,
     [SPECIES_TYPHLOSION2] = gMonIcon_Typhlosion2,
     [SPECIES_XURKITREE] = gMonIcon_Xurkitree,
+    [SPECIES_DIALGA] = gMonIcon_Dialga,
+    [SPECIES_ALTARIA2] = gMonIcon_Altaria2,
+    [SPECIES_BLASTOISE2] = gMonIcon_Blastoise2,
+    [SPECIES_SCEPTILE2] = gMonIcon_Sceptile2,
+    [SPECIES_SWAMPERT2] = gMonIcon_Swampert2,
+    [SPECIES_WALKINGWAKE] = gMonIcon_Walkingwake,
+    [SPECIES_RAGINGBOLT] = gMonIcon_Ragingbolt,
 
     //Don't write past this
     [SPECIES_EGG] = gMonIcon_Egg,
@@ -1412,6 +1419,13 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_TOGEKISS] = 2,
     [SPECIES_TYPHLOSION2] = 1,
     [SPECIES_XURKITREE] = 0,
+    [SPECIES_DIALGA] = 2,
+    [SPECIES_ALTARIA2] = 0,
+    [SPECIES_BLASTOISE2] = 2,
+    [SPECIES_SCEPTILE2] = 1,
+    [SPECIES_SWAMPERT2] = 0,
+    [SPECIES_WALKINGWAKE] = 2,
+    [SPECIES_RAGINGBOLT] = 2,
 
     [SPECIES_EGG] = 1,
     [SPECIES_UNOWN_B] = 0,

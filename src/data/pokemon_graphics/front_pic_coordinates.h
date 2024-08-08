@@ -3390,6 +3390,41 @@ const struct MonCoords gMonFrontPicCoords[] =
       .size = MON_COORDS_SIZE(64, 64),
      .y_offset = 0,
     },
+    [SPECIES_DIALGA] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_ALTARIA2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_BLASTOISE2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_SCEPTILE2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_SWAMPERT2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 6,
+    },
+    [SPECIES_WALKINGWAKE] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_RAGINGBOLT] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
 
 
     //Don't write past this

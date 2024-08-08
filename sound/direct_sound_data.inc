@@ -2998,6 +2998,34 @@ Cry_Typhlosion2::
 Cry_Xurkitree:: 
    .incbin "sound/direct_sound_samples/cries/xurkitree.bin"
 
+      .align 2
+Cry_Dialga:: 
+   .incbin "sound/direct_sound_samples/cries/dialga.bin"
+
+   .align 2
+Cry_Altaria2:: 
+   .incbin "sound/direct_sound_samples/cries/altaria2.bin"
+
+   .align 2
+Cry_Blastoise2:: 
+   .incbin "sound/direct_sound_samples/cries/blastoise2.bin"
+
+   .align 2
+Cry_Sceptile2:: 
+   .incbin "sound/direct_sound_samples/cries/sceptile2.bin"
+
+   .align 2
+Cry_Swampert2:: 
+   .incbin "sound/direct_sound_samples/cries/swampert2.bin"
+
+   .align 2
+Cry_Walkingwake:: 
+   .incbin "sound/direct_sound_samples/cries/walkingwake.bin"
+
+   .align 2
+Cry_Ragingbolt:: 
+   .incbin "sound/direct_sound_samples/cries/ragingbolt.bin"
+
 
 
 

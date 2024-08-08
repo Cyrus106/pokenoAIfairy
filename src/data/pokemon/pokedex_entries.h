@@ -7581,4 +7581,82 @@ const struct PokedexEntry gPokedexEntries[] =
        .trainerScale = 290,
         .trainerOffset = 2,
 },
+
+        [NATIONAL_DEX_DIALGA] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gDialgaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_ALTARIA2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gAltaria2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_BLASTOISE2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gBlastoise2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_SCEPTILE2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gSceptile2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_SWAMPERT2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gSwampert2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_WALKINGWAKE] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gWalkingwakePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_RAGINGBOLT] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gRagingboltPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
 };

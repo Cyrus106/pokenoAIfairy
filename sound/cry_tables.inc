@@ -654,6 +654,13 @@ gCryTable::
     cry  Cry_Togekiss 
     cry  Cry_Typhlosion2 
     cry  Cry_Xurkitree 
+	cry  Cry_Dialga 
+    cry  Cry_Altaria2 
+    cry  Cry_Blastoise2 
+    cry  Cry_Sceptile2 
+    cry  Cry_Swampert2 
+    cry  Cry_Walkingwake 
+    cry  Cry_Ragingbolt 
 	
 	.align 2
 gCryTable_Reverse::
@@ -1310,3 +1317,10 @@ gCryTable_Reverse::
     cry_reverse  Cry_Togekiss 
     cry_reverse  Cry_Typhlosion2 
     cry_reverse  Cry_Xurkitree 
+    cry_reverse  Cry_Dialga 
+    cry_reverse  Cry_Altaria2 
+    cry_reverse  Cry_Blastoise2 
+    cry_reverse  Cry_Sceptile2 
+    cry_reverse  Cry_Swampert2 
+    cry_reverse  Cry_Walkingwake 
+    cry_reverse  Cry_Ragingbolt 
