@@ -389,7 +389,6 @@ gCryTable::
 	cry Cry_Deoxys
 	cry Cry_Chimecho
 	cry Cry_MTyranitar
-	cry Cry_MTyranitar
 	cry Cry_Piplup
 	cry Cry_Prinplup
 	cry Cry_Empoleon
@@ -514,10 +513,10 @@ gCryTable::
     cry  Cry_Golett 
     cry  Cry_Golurk 
     cry  Cry_Gouging 
-    cry  Cry_Hankamo_O 
+    cry  Cry_HankamoO 
     cry  Cry_Honchkrow 
-    cry  Cry_Jangmo_O 
-    cry  Cry_Kommo_O 
+    cry  Cry_JangmoO 
+    cry  Cry_KommoO 
     cry  Cry_Lampent 
     cry  Cry_Liepard 
     cry  Cry_Litwick 
@@ -1177,10 +1176,10 @@ gCryTable_Reverse::
     cry_reverse  Cry_Golett 
     cry_reverse  Cry_Golurk 
     cry_reverse  Cry_Gouging 
-    cry_reverse  Cry_Hankamo_O 
+    cry_reverse  Cry_HankamoO 
     cry_reverse  Cry_Honchkrow 
-    cry_reverse  Cry_Jangmo_O 
-    cry_reverse  Cry_Kommo_O 
+    cry_reverse  Cry_JangmoO 
+    cry_reverse  Cry_KommoO 
     cry_reverse  Cry_Lampent 
     cry_reverse  Cry_Liepard 
     cry_reverse  Cry_Litwick 

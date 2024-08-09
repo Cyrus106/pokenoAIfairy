@@ -2439,7 +2439,7 @@ Cry_Gouging::
    .incbin "sound/direct_sound_samples/cries/gouging.bin"
 
    .align 2
-Cry_Hankamo_O:: 
+Cry_HankamoO:: 
    .incbin "sound/direct_sound_samples/cries/hankamo_o.bin"
 
    .align 2
@@ -2447,11 +2447,11 @@ Cry_Honchkrow::
    .incbin "sound/direct_sound_samples/cries/honchkrow.bin"
 
    .align 2
-Cry_Jangmo_O:: 
+Cry_JangmoO:: 
    .incbin "sound/direct_sound_samples/cries/jangmo_o.bin"
 
       .align 2
-Cry_Kommo_O:: 
+Cry_KommoO:: 
    .incbin "sound/direct_sound_samples/cries/kommo_o.bin"
 
    .align 2
