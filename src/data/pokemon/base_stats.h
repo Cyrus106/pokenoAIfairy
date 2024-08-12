@@ -17213,14 +17213,14 @@ const struct BaseStats gBaseStats[] =
       .noFlip = FALSE,
 },
 
-  [SPECIES_DUSKNOIR] = 
+  [SPECIES_DUSKNOIR] = //Buffed due to the evo barely giving any stats at all.
     {
-       .baseHP = 45,
+       .baseHP = 55,
        .baseAttack    = 100,
-       .baseDefense   = 135,
-       .baseSpeed     = 45,
-       .baseSpAttack  = 65,
-       .baseSpDefense = 135,
+       .baseDefense   = 140,
+       .baseSpeed     = 55,
+       .baseSpAttack  = 75,
+       .baseSpDefense = 140,
        .type1 = TYPE_GHOST,
        .type2 = TYPE_GHOST,
        .catchRate = 45,
