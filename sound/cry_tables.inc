@@ -660,6 +660,15 @@ gCryTable::
     cry  Cry_Swampert2 
     cry  Cry_Walkingwake 
     cry  Cry_Ragingbolt 
+    cry  Cry_Absol2 
+    cry  Cry_Aggron2 
+    cry  Cry_Charizardy 
+    cry  Cry_Gardevoir2 
+    cry  Cry_Houndoom2 
+    cry  Cry_Lucario2 
+    cry  Cry_Pidgeot2 
+    cry  Cry_Sableye2 
+    cry  Cry_Sharpedo2 
 	
 	.align 2
 gCryTable_Reverse::
@@ -1323,3 +1332,12 @@ gCryTable_Reverse::
     cry_reverse  Cry_Swampert2 
     cry_reverse  Cry_Walkingwake 
     cry_reverse  Cry_Ragingbolt 
+    cry_reverse  Cry_Absol2 
+    cry_reverse  Cry_Aggron2 
+    cry_reverse  Cry_Charizardy 
+    cry_reverse  Cry_Gardevoir2 
+    cry_reverse  Cry_Houndoom2 
+    cry_reverse  Cry_Lucario2 
+    cry_reverse  Cry_Pidgeot2 
+    cry_reverse  Cry_Sableye2 
+    cry_reverse  Cry_Sharpedo2 

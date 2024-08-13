@@ -665,6 +665,15 @@ enum {
     NATIONAL_DEX_SWAMPERT2,
     NATIONAL_DEX_WALKINGWAKE,
     NATIONAL_DEX_RAGINGBOLT,
+    NATIONAL_DEX_ABSOL2,
+    NATIONAL_DEX_AGGRON2,
+    NATIONAL_DEX_CHARIZARDY,
+    NATIONAL_DEX_GARDEVOIR2,
+    NATIONAL_DEX_HOUNDOOM2,
+    NATIONAL_DEX_LUCARIO2,
+    NATIONAL_DEX_PIDGEOT2,
+    NATIONAL_DEX_SABLEYE2,
+    NATIONAL_DEX_SHARPEDO2,
 
     // Old Unown
     NATIONAL_DEX_OLD_UNOWN_B,
@@ -697,7 +706,7 @@ enum {
 
 #define KANTO_DEX_COUNT     NATIONAL_DEX_MEW
 #define JOHTO_DEX_COUNT     NATIONAL_DEX_CELEBI
-#define NATIONAL_DEX_COUNT  NATIONAL_DEX_RAGINGBOLT	 //Just edit the last pokemon to be the last one you made
+#define NATIONAL_DEX_COUNT  NATIONAL_DEX_SHARPEDO2	 //Just edit the last pokemon to be the last one you made
 
 // Hoenn Pokedex order
 enum {
@@ -1176,6 +1185,15 @@ enum {
     HOENN_DEX_SWAMPERT2,
     HOENN_DEX_WALKINGWAKE,
     HOENN_DEX_RAGINGBOLT,
+    HOENN_DEX_ABSOL2,
+    HOENN_DEX_AGGRON2,
+    HOENN_DEX_CHARIZARDY,
+    HOENN_DEX_GARDEVOIR2,
+    HOENN_DEX_HOUNDOOM2,
+    HOENN_DEX_LUCARIO2,
+    HOENN_DEX_PIDGEOT2,
+    HOENN_DEX_SABLEYE2,
+    HOENN_DEX_SHARPEDO2,
 
     //Add your last pokemon here
     // End of Hoenn Dex (see HOENN_DEX_COUNT)
@@ -1392,6 +1410,6 @@ enum {
     
 };
 
-#define HOENN_DEX_COUNT    HOENN_DEX_RAGINGBOLT //Change the pokemon to be the last in the entry
+#define HOENN_DEX_COUNT    HOENN_DEX_SHARPEDO2 //Change the pokemon to be the last in the entry
 
 #endif // GUARD_CONSTANTS_POKEDEX_H

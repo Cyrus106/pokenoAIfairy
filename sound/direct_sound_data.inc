@@ -3026,6 +3026,41 @@ Cry_Walkingwake::
 Cry_Ragingbolt:: 
    .incbin "sound/direct_sound_samples/cries/ragingbolt.bin"
 
+	   .align 2
+Cry_Absol2:: 
+   .incbin "sound/direct_sound_samples/cries/absol2.bin"
+
+   .align 2
+Cry_Aggron2:: 
+   .incbin "sound/direct_sound_samples/cries/aggron2.bin"
+
+   .align 2
+Cry_Charizardy:: 
+   .incbin "sound/direct_sound_samples/cries/charizardy.bin"
+
+   .align 2
+Cry_Gardevoir2:: 
+   .incbin "sound/direct_sound_samples/cries/gardevoir2.bin"
+
+   .align 2
+Cry_Houndoom2:: 
+   .incbin "sound/direct_sound_samples/cries/houndoom2.bin"
+
+   .align 2
+Cry_Lucario2:: 
+   .incbin "sound/direct_sound_samples/cries/lucario2.bin"
+
+   .align 2
+Cry_Pidgeot2:: 
+   .incbin "sound/direct_sound_samples/cries/pidgeot2.bin"
+
+   .align 2
+Cry_Sableye2:: 
+   .incbin "sound/direct_sound_samples/cries/sableye2.bin"
+
+   .align 2
+Cry_Sharpedo2:: 
+   .incbin "sound/direct_sound_samples/cries/sharpedo2.bin"
 
 
 

@@ -664,6 +664,15 @@ const u32 gMonFrontPic_Sceptile2[] = INCBIN_U32("graphics/pokemon/sceptile2/anim
 const u32 gMonFrontPic_Swampert2[] = INCBIN_U32("graphics/pokemon/swampert2/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Walkingwake[] = INCBIN_U32("graphics/pokemon/walkingwake/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Ragingbolt[] = INCBIN_U32("graphics/pokemon/ragingbolt/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Absol2[] = INCBIN_U32("graphics/pokemon/absol2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Aggron2[] = INCBIN_U32("graphics/pokemon/aggron2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Charizardy[] = INCBIN_U32("graphics/pokemon/charizardy/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Gardevoir2[] = INCBIN_U32("graphics/pokemon/gardevoir2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Houndoom2[] = INCBIN_U32("graphics/pokemon/houndoom2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Lucario2[] = INCBIN_U32("graphics/pokemon/lucario2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Pidgeot2[] = INCBIN_U32("graphics/pokemon/pidgeot2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Sableye2[] = INCBIN_U32("graphics/pokemon/sableye2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Sharpedo2[] = INCBIN_U32("graphics/pokemon/sharpedo2/anim_front.4bpp.lz");
 //Don't write past this point
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 

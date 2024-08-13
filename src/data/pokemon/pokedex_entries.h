@@ -7659,4 +7659,104 @@ const struct PokedexEntry gPokedexEntries[] =
        .trainerScale = 290,
         .trainerOffset = 2,
     },
+
+    [NATIONAL_DEX_ABSOL2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gAbsol2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_AGGRON2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gAggron2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_CHARIZARDY] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gCharizardyPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_GARDEVOIR2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gGardevoir2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_HOUNDOOM2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gHoundoom2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_LUCARIO2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gLucario2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_PIDGEOT2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gPidgeot2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_SABLEYE2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gSableye2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_SHARPEDO2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gSharpedo2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+},
 };

@@ -3418,6 +3418,43 @@ const u8 gRagingboltPokedexText[] = _(
 "text here \n"
 "text here");
 
+const u8 gAbsol2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gAggron2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gCharizardyPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gGardevoir2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gHoundoom2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gLucario2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gPidgeot2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gSableye2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gSharpedo2PokedexText[] = _(
+"text here \n"
+"text here");
+
+
 
 
 

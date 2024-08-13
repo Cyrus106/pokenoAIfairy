@@ -3424,6 +3424,51 @@ const struct MonCoords gMonBackPicCoords[] =
       .size = MON_COORDS_SIZE(64, 64),
      .y_offset = 0,
     },
+    [SPECIES_ABSOL2] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_AGGRON2] =
+    {
+      .size = MON_COORDS_SIZE(64, 56),
+     .y_offset = 7,
+    },
+    [SPECIES_CHARIZARDY] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 1,
+    },
+    [SPECIES_GARDEVOIR2] =
+    {
+      .size = MON_COORDS_SIZE(48, 56),
+     .y_offset = 6,
+    },
+    [SPECIES_HOUNDOOM2] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_LUCARIO2] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_PIDGEOT2] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 7,
+    },
+    [SPECIES_SABLEYE2] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 13,
+    },
+    [SPECIES_SHARPEDO2] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 3,
+    },
     //Don't write past this
     [SPECIES_EGG] =
     {

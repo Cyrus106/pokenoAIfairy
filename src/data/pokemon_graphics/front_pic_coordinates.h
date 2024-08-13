@@ -3425,6 +3425,51 @@ const struct MonCoords gMonFrontPicCoords[] =
       .size = MON_COORDS_SIZE(64, 64),
      .y_offset = 0,
     },
+    [SPECIES_ABSOL2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 2,
+    },
+    [SPECIES_AGGRON2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_CHARIZARDY] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_GARDEVOIR2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_HOUNDOOM2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_LUCARIO2] =
+     {
+      .size = MON_COORDS_SIZE(48, 64),
+     .y_offset = 2,
+    },
+    [SPECIES_PIDGEOT2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
+    [SPECIES_SABLEYE2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 5,
+    },
+    [SPECIES_SHARPEDO2] =
+     {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 0,
+    },
 
 
     //Don't write past this

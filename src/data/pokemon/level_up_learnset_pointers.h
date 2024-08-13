@@ -684,4 +684,13 @@ const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_SWAMPERT2] = sSwampert2LevelUpLearnset,
     [SPECIES_WALKINGWAKE] = sWalkingwakeLevelUpLearnset,
     [SPECIES_RAGINGBOLT] = sRagingboltLevelUpLearnset,
+    [SPECIES_ABSOL2] = sAbsol2LevelUpLearnset,
+    [SPECIES_AGGRON2] = sAggron2LevelUpLearnset,
+    [SPECIES_CHARIZARDY] = sCharizardyLevelUpLearnset,
+    [SPECIES_GARDEVOIR2] = sGardevoir2LevelUpLearnset,
+    [SPECIES_HOUNDOOM2] = sHoundoom2LevelUpLearnset,
+    [SPECIES_LUCARIO2] = sLucario2LevelUpLearnset,
+    [SPECIES_PIDGEOT2] = sPidgeot2LevelUpLearnset,
+    [SPECIES_SABLEYE2] = sSableye2LevelUpLearnset,
+    [SPECIES_SHARPEDO2] = sSharpedo2LevelUpLearnset,
 };
