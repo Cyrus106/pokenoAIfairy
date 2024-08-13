@@ -42,6 +42,15 @@ LilycoveCity_DepartmentStore_2F_Pokemart1:
 	.2byte ITEM_WATER_STONE
 	.2byte ITEM_THUNDER_STONE
 	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_HEART_SCALE
+	.2byte ITEM_BRIGHT_POWDER
+	.2byte ITEM_SCOPE_LENS
+	.2byte ITEM_FOCUS_BAND
+	.2byte ITEM_CHOICE_BAND
+	.2byte ITEM_QUICK_CLAW
+	.2byte ITEM_SHELL_BELL
+	.2byte ITEM_LEFTOVERS
 	.2byte ITEM_NONE
 	release
 	end
