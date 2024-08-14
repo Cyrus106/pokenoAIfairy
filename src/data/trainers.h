@@ -6861,7 +6861,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_HUEY] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
@@ -6870,12 +6870,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Huey),
-        .party = {.NoItemDefaultMoves = sParty_Huey},
+        .party = {.ItemCustomMoves = sParty_Huey},
     },
 
     [TRAINER_EDMOND] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
@@ -6884,7 +6884,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Edmond),
-        .party = {.NoItemDefaultMoves = sParty_Edmond},
+        .party = {.NoItemCustomMoves = sParty_Edmond},
     },
 
     [TRAINER_ERNEST_1] =

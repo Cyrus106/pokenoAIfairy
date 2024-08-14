@@ -6695,39 +6695,61 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv6[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Huey[] = {
+static const struct TrainerMonItemCustomMoves sParty_Huey[] = {
     {
     .iv = 10,
-    .lvl = 19,
-    .species = SPECIES_WINGULL,
+    .lvl = 25,
+    .species = SPECIES_HIPPOPOTAS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_MAGNITUDE, MOVE_ROCK_THROW, MOVE_POISON_FANG, MOVE_GLARE}
     },
     {
     .iv = 10,
-    .lvl = 19,
-    .species = SPECIES_MACHOP,
+    .lvl = 26,
+    .species = SPECIES_NOSEPASS,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_ROCK_THROW, MOVE_POUND, MOVE_SAND_ATTACK, MOVE_NONE}
     },
     {
     .iv = 10,
-    .lvl = 19,
-    .species = SPECIES_SPEAROW,
+    .lvl = 26,
+    .species = SPECIES_HERDIER,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_TAKE_DOWN, MOVE_QUICK_ATTACK, MOVE_HOWL, MOVE_NONE}
+    },
+    {
+    .iv = 10,
+    .lvl = 25,
+    .species = SPECIES_CLEFAIRY,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_METRONOME, MOVE_MIMIC, MOVE_COUNTER, MOVE_MIRROR_COAT}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Edmond[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Edmond[] = {
     {
     .iv = 0,
-    .lvl = 19,
-    .species = SPECIES_WINGULL,
+    .lvl = 25,
+    .species = SPECIES_NICKIT,
+    .moves = {MOVE_PURSUIT, MOVE_BITE, MOVE_SLAM, MOVE_ODOR_SLEUTH}
     },
     {
     .iv = 0,
-    .lvl = 19,
-    .species = SPECIES_MACHOP,
+    .lvl = 26,
+    .species = SPECIES_TYROGUE,
+    .moves = {MOVE_SKY_UPPERCUT, MOVE_MACH_PUNCH, MOVE_ICE_PUNCH, MOVE_SHADOW_PUNCH}
     },
     {
     .iv = 0,
-    .lvl = 18,
-    .species = SPECIES_POLIWHIRL,
+    .lvl = 26,
+    .species = SPECIES_SABLEYE,
+    .moves = {MOVE_FAINT_ATTACK, MOVE_SHADOW_SNEAK, MOVE_DETECT, MOVE_HARDEN}
+    },
+    {
+    .iv = 0,
+    .lvl = 25,
+    .species = SPECIES_TOXEL,
+    .moves = {MOVE_THUNDER_SHOCK, MOVE_ACID, MOVE_LEER, MOVE_NONE}
     }
 };
 
