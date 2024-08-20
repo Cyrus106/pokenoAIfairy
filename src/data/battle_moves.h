@@ -4620,7 +4620,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
         .power = 120,
-        .type = TYPE_FAIRY,
+        .type = TYPE_GRASS,
         .accuracy = 85,
         .pp = 10,
         .secondaryEffectChance = 40,
