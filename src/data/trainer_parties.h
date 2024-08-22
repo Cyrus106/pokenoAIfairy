@@ -5936,10 +5936,10 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_KNOCK_OFF, MOVE_SPIKES}
     },
     {
-    .iv = 250,
-    .lvl = 82,
+    .iv = 150,
+    .lvl = 80,
     .species = SPECIES_HOOPA,
-    .heldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
     .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_FOCUS_BLAST, MOVE_ICE_BEAM}
     },
     {
@@ -5950,22 +5950,22 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     .moves = {MOVE_NIGHT_DAZE, MOVE_PURSUIT, MOVE_SLUDGE_BOMB, MOVE_SUPERPOWER}
     },
     {
-    .iv = 130,
-    .lvl = 85,
+    .iv = 80,
+    .lvl = 82,
     .species = SPECIES_ALAKAZAM,
     .heldItem = ITEM_FOCUS_BAND,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 180,
-    .lvl = 85,
+    .lvl = 84,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_METEOR_MASH, MOVE_ZEN_HEADBUTT, MOVE_EARTHQUAKE, MOVE_PURSUIT}
     },
     {
     .iv = 200,
-    .lvl = 85,
+    .lvl = 83,
     .species = SPECIES_GARDEVOIR,
     .heldItem = ITEM_TWISTED_SPOON,
     .moves = {MOVE_PSYCHO_BOOST, MOVE_FUTURE_SIGHT, MOVE_HELPING_HAND, MOVE_MYSTICAL_FIRE}

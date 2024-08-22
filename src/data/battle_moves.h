@@ -5259,8 +5259,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_ACCURACY_DOWN_HIT,
         .power = 85,
-        .type = TYPE_ELECTRIC,
-        .accuracy = 95,
+        .type = TYPE_DARK,
+        .accuracy = 90,
         .pp = 10,
         .secondaryEffectChance = 40,
         .target = MOVE_TARGET_SELECTED,
