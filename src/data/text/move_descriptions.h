@@ -1680,7 +1680,9 @@ static const u8 sBraveBirdDescription[] = _(
     "An extremely fast attack\n"
     "that always strikes first.");
 
-
+static const u8 sBulldozeDescription[] = _(
+    "A ground attack that\n"
+    "lowers the foe's SPEED.");
 
 
 
@@ -2103,4 +2105,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_INF_PARADE - 1] = sInfParadeDescription,
     [MOVE_BRAVE_BIRD - 1] = sBraveBirdDescription,
     [MOVE_BULLET_PUNCH_2 - 1] = sBulletPunch2Description,
+    [MOVE_BULLDOZE - 1] = sBulldozeDescription,
 };

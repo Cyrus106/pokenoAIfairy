@@ -416,8 +416,9 @@
 #define MOVE_INF_PARADE 412
 #define MOVE_BRAVE_BIRD 413
 #define MOVE_BULLET_PUNCH_2 414
+#define MOVE_BULLDOZE 415
 
-#define MOVES_COUNT 415
+#define MOVES_COUNT 416
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

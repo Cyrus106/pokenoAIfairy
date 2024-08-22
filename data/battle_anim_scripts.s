@@ -431,6 +431,7 @@ gBattleAnims_Moves::
 	.4byte Move_INF_PARADE
 	.4byte Move_BRAVE_BIRD
 	.4byte Move_BULLET_PUNCH_2
+	.4byte Move_BULLDOZE
 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
@@ -9852,6 +9853,16 @@ Move_ACROBATICS:
 
 
 Move_EARTH_POWER:
+	createvisualtask AnimTask_HorizontalShake, 5, (MAX_BATTLERS_COUNT + 1), 0, 50
+	createvisualtask AnimTask_HorizontalShake, 5, MAX_BATTLERS_COUNT, 0, 50
+	loopsewithpan SE_M_STRENGTH, SOUND_PAN_TARGET, 8, 10
+	delay 10
+	createsprite gComplexPaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, F_PAL_BG, 3, 1, RGB_BLACK, 14, RGB_WHITE, 14
+	delay 16
+	createsprite gComplexPaletteBlendSpriteTemplate, ANIM_ATTACKER, 2, F_PAL_BG, 3, 1, RGB_BLACK, 14, RGB_WHITE, 14
+	end
+
+Move_BULLDOZE:
 	createvisualtask AnimTask_HorizontalShake, 5, (MAX_BATTLERS_COUNT + 1), 0, 50
 	createvisualtask AnimTask_HorizontalShake, 5, MAX_BATTLERS_COUNT, 0, 50
 	loopsewithpan SE_M_STRENGTH, SOUND_PAN_TARGET, 8, 10
