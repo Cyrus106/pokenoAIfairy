@@ -12283,7 +12283,7 @@ static const struct TrainerMonItemCustomMoves sParty_GruntSpaceCenter4[] = {
     .lvl = 86,
     .species = SPECIES_DUGTRIO,
     .heldItem = ITEM_SOFT_SAND,
-    .moves = {MOVE_PIN_MISSILE, MOVE_ROCK_SLIDE, MOVE_FAINT_ATTACK, MOVE_SWORDS_DANCE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_FAINT_ATTACK, MOVE_SWORDS_DANCE}
     },
     {
     .iv = 100,
