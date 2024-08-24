@@ -20664,14 +20664,14 @@ const struct BaseStats gBaseStats[] =
 
   [SPECIES_LUGIA2] = 
     {
-       .baseHP = 65,
-       .baseAttack    = 110,
+       .baseHP        = 116,
+       .baseAttack    = 90,
        .baseDefense   = 130,
-       .baseSpeed     = 95,
-       .baseSpAttack  = 60,
-       .baseSpDefense = 65,
-       .type1 = TYPE_GRASS,
-       .type2 = TYPE_GRASS,
+       .baseSpeed     = 110,
+       .baseSpAttack  = 90,
+       .baseSpDefense = 154,
+       .type1 = TYPE_PSYCHIC,
+       .type2 = TYPE_FLYING,
        .catchRate = 45,
        .expYield = 0,
        .evYield_HP        = 0,
