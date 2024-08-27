@@ -76,3 +76,18 @@ NavelRock_Bottom_EventScript_RanFromLugia::
 	setvar VAR_0x8004, SPECIES_LUGIA
 	goto Common_EventScript_LegendaryFlewAway
 	end
+
+NavelRock_EventScript_Plutt::
+	trainerbattle_single TRAINER_PLUTT, NavelRock_Text_PluttIntro, NavelRock_Text_PluttDefeated
+	msgbox NavelRock_Text_PluttPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NavelRock_Text_PluttIntro:
+	.string "It's me, Plutt! You're gonna be\n"
+	.string "recompleted!$"
+
+NavelRock_Text_PluttDefeated:
+	.string "Dangerously cheesy!$"
+
+NavelRock_Text_PluttPostBattle:
+	.string "Welcome to the Outer Wilds Club.$"
