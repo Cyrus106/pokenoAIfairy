@@ -84,3 +84,30 @@ DesertRuins_EventScript_RanFromRegirock::
 	goto Common_EventScript_LegendaryFlewAway
 	end
 
+DesertRuins_EventScript_JimandHarry::
+	trainerbattle_single TRAINER_JIM_AND_HARRY, DesertRuins_Text_JimandHarryIntro, DesertRuins_Text_JimandHarryDefeated
+	msgbox DesertRuins_Text_JimandHarryPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+DesertRuins_Text_JimandHarryIntro:
+	.string "JIM:Oy,'arry, is that the bloody bobby?\n"
+	.string "HARRY: Bloody 'ell its certainly not a\l"
+	.string "parcel delivery. What you reckon she is?\l"
+	.string "JIM: Trouble, she's nothing but trouble.\l"
+	.string "let's give her the friendly London\l"
+	.string "greeting and snuff her out before she\l"
+	.string "tells the bobby we're 'ere, ey 'arry?\l"
+	.string "HARRY: Cheerio then we can have some\l"
+	.string "fish and chips at the pub.$"
+
+DesertRuins_Text_JimandHarryDefeated:
+	.string "JIM: Aw, bollocks! We've done it now.\n"
+	.string "HARRY: We really buggered it this time.\l"
+	.string "The UN will have us on a platter for\l"
+	.string "supper for failing again.$"
+
+
+DesertRuins_Text_JimandHarryPostBattle:
+	.string "If you tell the bobby we are 'ere, our\n"
+	.string "country will make sure you end up the\l"
+	.string "next Spencer Perceval .$"

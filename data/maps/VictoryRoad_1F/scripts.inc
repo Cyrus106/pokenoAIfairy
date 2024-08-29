@@ -218,3 +218,29 @@ VictoryRoad_1F_Text_KatelynnDefeat:
 VictoryRoad_1F_Text_KatelynnPostBattle:
 	.string "Humph, go right on ahead.\n"
 	.string "See if I care.$"
+
+
+VictoryRoad_1F_EventScript_May::
+	trainerbattle_single TRAINER_MAY_VROAD, VictoryRoad_1F_Text_MayIntro, VictoryRoad_1F_Text_MayDefeated
+	msgbox VictoryRoad_1F_Text_MayPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_1F_Text_MayIntro:
+	.string "So, you finally collected all the Gym\n"
+	.string "Badges? I knew you could pull it off\l"
+	.string "{PLAYER}! While you've been off\l"
+	.string "collecting badges, I've been greatly\l"
+	.string "expanding my POKéDEX just like I told\l"
+	.string "you I would. Eheheh… Want to have one\l"
+	.string "last battle to see who's been raising\l"
+	.string "POKéMON better?$"
+
+VictoryRoad_1F_Text_MayDefeated:
+	.string "Oh wow, you're just overwhelmingly\n"
+	.string "strong. Dad was right about you.$"
+
+VictoryRoad_1F_Text_MayPostBattle:
+	.string "You'll win the against the Champion, I\n"
+	.string "just know you will. Remember that Dad\l"
+	.string "and I will be cheering you on in your\l"
+	.string "final battles with the Elite Four!$"

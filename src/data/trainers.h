@@ -11983,4 +11983,60 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Plutt},
     },
 
+    [TRAINER_MAY_VROAD] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
+        .trainerPic = TRAINER_PIC_MAY,
+        .trainerName = _("MAY"),
+        .items = {},
+        .doubleBattle = TRUE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_May_Vroad),
+        .party = {.ItemCustomMoves = sParty_May_Vroad},
+    },
+
+     [TRAINER_JIM_AND_HARRY] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("JIM&HARRY"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_Jim_and_Harry),
+        .party = {.ItemCustomMoves = sParty_Jim_and_Harry},
+    },
+
+    [TRAINER_TYRANT_JOSH] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("JOSH"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_Tyrant_Josh),
+        .party = {.ItemCustomMoves = sParty_Tyrant_Josh},
+    },
+
+    [TRAINER_KNOWLES] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
+        .trainerPic = TRAINER_PIC_RED,
+        .trainerName = _("KNOWLES"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_Knowles),
+        .party = {.ItemCustomMoves = sParty_Knowles},
+    },
+
 };

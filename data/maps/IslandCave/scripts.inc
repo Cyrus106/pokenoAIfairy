@@ -116,3 +116,31 @@ IslandCave_EventScript_RanFromRegice::
 	setvar VAR_0x8004, SPECIES_REGICE
 	goto Common_EventScript_LegendaryFlewAway
 	end
+
+IslandCave_EventScript_Josh::
+	trainerbattle_single TRAINER_TYRANT_JOSH, IslandCave_Text_TyrantJoshIntro, IslandCave_Text_TyrantJoshDefeated
+	msgbox IslandCave_Text_TyrantJoshPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+IslandCave_Text_TyrantJoshIntro:
+	.string "JIM:Oy,'arry, is that the bloody bobby?\n"
+	.string "HARRY: Bloody 'ell its certainly not a\l"
+	.string "parcel delivery. What you reckon she is?\l"
+	.string "JIM: Trouble, she's nothing but trouble.\l"
+	.string "let's give her the friendly London\l"
+	.string "greeting and snuff her out before she\l"
+	.string "tells the Bobby we're 'ere, ey 'arry?\l"
+	.string "HARRY: Cheerio then we can have some\l"
+	.string "fish and chips at the pub.$"
+
+IslandCave_Text_TyrantJoshDefeated:
+	.string "JIM: Aw, bollocks! We've done it now.\n"
+	.string "HARRY: We really buggered it this time.\l"
+	.string "The UN will have us on a platter for\l"
+	.string "supper for failing again.$"
+
+
+IslandCave_Text_TyrantJoshPostBattle:
+	.string "If you tell the bobby we are 'ere, our\n"
+	.string "country will make sure you end up the\l"
+	.string "next Spencer Perceval .$"

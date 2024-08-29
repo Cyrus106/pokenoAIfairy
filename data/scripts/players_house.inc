@@ -478,6 +478,7 @@ PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV::
 	copyvar VAR_0x8004, VAR_RESULT
 	special InitRoamer
 	copyvar VAR_ROAMER_POKEMON, VAR_RESULT
+	giveitem ITEM_EON_TICKET
 	msgbox PlayersHouse_1F_Text_StillUnknownPokemon, MSGBOX_DEFAULT
 	closemessage
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 4

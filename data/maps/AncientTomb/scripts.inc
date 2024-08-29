@@ -84,3 +84,30 @@ AncientTomb_EventScript_RanFromRegisteel::
 	goto Common_EventScript_LegendaryFlewAway
 	end
 
+AncientTomb_EventScript_Knowles::
+	trainerbattle_single TRAINER_KNOWLES, AncientTomb_Text_KnowlesIntro, AncientTomb_Text_KnowlesDefeated
+	msgbox AncientTomb_Text_KnowlesPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AncientTomb_Text_KnowlesIntro:
+	.string "JIM:Oy,'arry, is that the bloody bobby?\n"
+	.string "HARRY: Bloody 'ell its certainly not a\l"
+	.string "parcel delivery. What you reckon she is?\l"
+	.string "JIM: Trouble, she's nothing but trouble.\l"
+	.string "let's give her the friendly London\l"
+	.string "greeting and snuff her out before she\l"
+	.string "tells the Bobby we're 'ere, ey 'arry?\l"
+	.string "HARRY: Cheerio then we can have some\l"
+	.string "fish and chips at the pub.$"
+
+AncientTomb_Text_KnowlesDefeated:
+	.string "JIM: Aw, bollocks! We've done it now.\n"
+	.string "HARRY: We really buggered it this time.\l"
+	.string "The UN will have us on a platter for\l"
+	.string "supper for failing again.$"
+
+
+AncientTomb_Text_KnowlesPostBattle:
+	.string "If you tell the bobby we are 'ere, our\n"
+	.string "country will make sure you end up the\l"
+	.string "next Spencer Perceval .$"

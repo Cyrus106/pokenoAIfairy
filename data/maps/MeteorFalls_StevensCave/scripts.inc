@@ -17,6 +17,7 @@ MeteorFalls_StevensCave_EventScript_Steven::
 	msgbox MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
 	msgbox MeteorFalls_StevensCave_Text_MyPredictionCameTrue, MSGBOX_DEFAULT
+	giveitem ITEM_MYSTIC_TICKET
 	setflag FLAG_DEFEATED_METEOR_FALLS_STEVEN
 	release
 	end

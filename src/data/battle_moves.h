@@ -4973,7 +4973,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_BURN_HIT,
         .power = 110,
-        .type = TYPE_FIRE,
+        .type = TYPE_WATER,
         .accuracy = 90,
         .pp = 10,
         .secondaryEffectChance = 30,
