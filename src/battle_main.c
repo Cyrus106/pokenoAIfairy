@@ -530,7 +530,13 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_HIKER, 10},
     {TRAINER_CLASS_YOUNG_COUPLE, 8},
     {TRAINER_CLASS_WINSTRATE, 10},
-     {TRAINER_CLASS_HIDEO, 15},
+    {TRAINER_CLASS_HIDEO, 15},
+    {TRAINER_CLASS_FOREIGN_SPY, 70},
+    {TRAINER_CLASS_TYRANT, 70},
+    {TRAINER_CLASS_GRAV_MASTER, 70},
+    {TRAINER_CLASS_SNAGGER, 70},
+    {TRAINER_CLASS_SWEETHEART, 70},
+    {TRAINER_CLASS_REVENGEANCED, 70},
     {0xFF, 5}, // Any trainer class not listed above uses this
 };
 

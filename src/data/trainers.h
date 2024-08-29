@@ -11972,9 +11972,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_PLUTT] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RS_PROTAG,
+        .trainerClass = TRAINER_CLASS_SNAGGER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_PIKE_QUEEN_LUCY,
+        .trainerPic = TRAINER_PIC_SNAGGER,
         .trainerName = _("PLUTT"),
         .items = {},
         .doubleBattle = FALSE,
@@ -12000,9 +12000,9 @@ const struct Trainer gTrainers[] = {
      [TRAINER_JIM_AND_HARRY] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RIVAL,
+        .trainerClass = TRAINER_CLASS_FOREIGN_SPY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_RED,
+        .trainerPic = TRAINER_PIC_FOREIGN_SPY,
         .trainerName = _("JIM&HARRY"),
         .items = {},
         .doubleBattle = FALSE,

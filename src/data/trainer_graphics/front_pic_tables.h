@@ -94,6 +94,12 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_RS_BRENDAN] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_RS_MAY] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_HIDEO] = {.size = 8, .y_offset = 1}, //Hideo Add
+    [TRAINER_PIC_FOREIGN_SPY] = {.size = 8, .y_offset = 1}, //Jim and Harry
+    [TRAINER_PIC_TYRANT] = {.size = 8, .y_offset = 1}, //Josh Add
+    [TRAINER_PIC_GRAV_MASTER] = {.size = 8, .y_offset = 1}, //Knowles Add
+    [TRAINER_PIC_SNAGGER] = {.size = 8, .y_offset = 1}, //Plutt Add
+    [TRAINER_PIC_SWEETHEART] = {.size = 8, .y_offset = 1}, //Max Add
+    [TRAINER_PIC_REVENGEANCED] = {.size = 8, .y_offset = 1}, //Max Add
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -193,7 +199,13 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(LEAF, gTrainerFrontPic_Leaf, 0x800),
     TRAINER_SPRITE(RS_BRENDAN, gTrainerFrontPic_RubySapphireBrendan, 0x800),
     TRAINER_SPRITE(RS_MAY, gTrainerFrontPic_RubySapphireMay, 0x800),
-    TRAINER_SPRITE(HIDEO, gTrainerFrontPic_Hideo, 0x800), //Hideo Add
+    TRAINER_SPRITE(HIDEO, gTrainerFrontPic_Hideo, 0x800), 
+    TRAINER_SPRITE(FOREIGN_SPY, gTrainerFrontPic_ForeignSpy, 0x800), 
+    TRAINER_SPRITE(TYRANT, gTrainerFrontPic_Tyrant, 0x800), 
+    TRAINER_SPRITE(GRAV_MASTER, gTrainerFrontPic_GravMaster, 0x800), 
+    TRAINER_SPRITE(SNAGGER, gTrainerFrontPic_Snagger, 0x800), 
+    TRAINER_SPRITE(SWEETHEART, gTrainerFrontPic_Sweetheart, 0x800), 
+    TRAINER_SPRITE(REVENGEANCED, gTrainerFrontPic_Revengeanced, 0x800), 
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -293,5 +305,11 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(LEAF, gTrainerPalette_Leaf),
     TRAINER_PAL(RS_BRENDAN, gTrainerPalette_RubySapphireBrendan),
     TRAINER_PAL(RS_MAY, gTrainerPalette_RubySapphireMay),
-    TRAINER_PAL(HIDEO, gTrainerPalette_Hideo), //Hideo Add
+    TRAINER_PAL(HIDEO, gTrainerPalette_Hideo), 
+    TRAINER_PAL(FOREIGN_SPY, gTrainerPalette_ForeignSpy), 
+    TRAINER_PAL(TYRANT, gTrainerPalette_Tyrant), 
+    TRAINER_PAL(GRAV_MASTER, gTrainerPalette_GravMaster), 
+    TRAINER_PAL(SNAGGER, gTrainerPalette_Snagger), 
+    TRAINER_PAL(SWEETHEART, gTrainerPalette_Sweetheart), 
+    TRAINER_PAL(REVENGEANCED, gTrainerPalette_Revengeanced), 
 };

@@ -4933,6 +4933,12 @@ extern const u32 gTrainerFrontPic_Leaf[];
 extern const u32 gTrainerFrontPic_RubySapphireBrendan[];
 extern const u32 gTrainerFrontPic_RubySapphireMay[];
 extern const u32 gTrainerFrontPic_Hideo[]; //Hideo Add
+extern const u32 gTrainerFrontPic_ForeignSpy[]; 
+extern const u32 gTrainerFrontPic_Tyrant[]; 
+extern const u32 gTrainerFrontPic_GravMaster[]; 
+extern const u32 gTrainerFrontPic_Snagger[]; 
+extern const u32 gTrainerFrontPic_Sweetheart[]; 
+extern const u32 gTrainerFrontPic_Revengeanced[]; 
 
 extern const u32 gTrainerPalette_Hiker[];
 extern const u32 gTrainerPalette_AquaGruntM[];
@@ -5028,6 +5034,13 @@ extern const u32 gTrainerPalette_Leaf[];
 extern const u32 gTrainerPalette_RubySapphireBrendan[];
 extern const u32 gTrainerPalette_RubySapphireMay[];
 extern const u32 gTrainerPalette_Hideo[]; //Hideo Add
+extern const u32 gTrainerPalette_ForeignSpy[];
+extern const u32 gTrainerPalette_Tyrant[];
+extern const u32 gTrainerPalette_GravMaster[];
+extern const u32 gTrainerPalette_Snagger[];
+extern const u32 gTrainerPalette_Sweetheart[];
+extern const u32 gTrainerPalette_Revengeanced[];
+
 
 extern const u8 gTrainerBackPic_Brendan[];
 extern const u8 gTrainerBackPic_May[];

@@ -370,7 +370,31 @@ static const union AnimCmd *const sAnims_RubySapphireMay[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_Hideo[] ={ //Hideo Add
+static const union AnimCmd *const sAnims_Hideo[] ={ 
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_ForeignSpy[] ={ 
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Tyrant[] ={ 
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_GravMaster[] ={ 
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Snagger[] ={ 
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Sweetheart[] ={ 
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Revengeanced[] ={ 
     sAnim_GeneralFrame0,
 };
 
@@ -470,4 +494,10 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_RS_BRENDAN] = sAnims_RubySapphireBrendan,
     [TRAINER_PIC_RS_MAY] = sAnims_RubySapphireMay,
     [TRAINER_PIC_HIDEO] = sAnims_Hideo, //Hideo Add
+    [TRAINER_PIC_FOREIGN_SPY] = sAnims_ForeignSpy, //Jim and Harry Add
+    [TRAINER_PIC_TYRANT] = sAnims_Tyrant, //Josh Add
+    [TRAINER_PIC_GRAV_MASTER] = sAnims_GravMaster, //Knowles Add
+    [TRAINER_PIC_SNAGGER] = sAnims_Snagger, //Plutt Add
+    [TRAINER_PIC_SWEETHEART] = sAnims_Sweetheart, //Max Add
+    [TRAINER_PIC_REVENGEANCED] = sAnims_Revengeanced, //Max Add
 };

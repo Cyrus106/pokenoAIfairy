@@ -280,6 +280,23 @@ const u32 gTrainerPalette_RubySapphireMay[] = INCBIN_U32("graphics/trainers/pale
 const u32 gTrainerFrontPic_Hideo[] = INCBIN_U32("graphics/trainers/front_pics/hideo.4bpp.lz"); //Hideo Add
 const u32 gTrainerPalette_Hideo[] = INCBIN_U32("graphics/trainers/palettes/hideo.gbapal.lz"); //Hideo Add
 
+const u32 gTrainerFrontPic_ForeignSpy[] = INCBIN_U32("graphics/trainers/front_pics/foreignspy.4bpp.lz"); 
+const u32 gTrainerPalette_ForeignSpy[] = INCBIN_U32("graphics/trainers/palettes/foreignspy.gbapal.lz"); 
+
+const u32 gTrainerFrontPic_Tyrant[] = INCBIN_U32("graphics/trainers/front_pics/tyrant.4bpp.lz"); 
+const u32 gTrainerPalette_Tyrant[] = INCBIN_U32("graphics/trainers/palettes/tyrant.gbapal.lz"); 
+
+const u32 gTrainerFrontPic_GravMaster[] = INCBIN_U32("graphics/trainers/front_pics/gravmaster.4bpp.lz"); 
+const u32 gTrainerPalette_GravMaster[] = INCBIN_U32("graphics/trainers/palettes/gravmaster.gbapal.lz"); 
+
+const u32 gTrainerFrontPic_Snagger[] = INCBIN_U32("graphics/trainers/front_pics/snagger.4bpp.lz"); 
+const u32 gTrainerPalette_Snagger[] = INCBIN_U32("graphics/trainers/palettes/snagger.gbapal.lz"); 
+
+const u32 gTrainerFrontPic_Sweetheart[] = INCBIN_U32("graphics/trainers/front_pics/sweetheart.4bpp.lz"); 
+const u32 gTrainerPalette_Sweetheart[] = INCBIN_U32("graphics/trainers/palettes/sweetheart.gbapal.lz"); 
+
+const u32 gTrainerFrontPic_Revengeanced[] = INCBIN_U32("graphics/trainers/front_pics/revengeanced.4bpp.lz"); 
+const u32 gTrainerPalette_Revengeanced[] = INCBIN_U32("graphics/trainers/palettes/revengeanced.gbapal.lz"); 
 
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan_back_pic.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may_back_pic.4bpp");
