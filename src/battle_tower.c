@@ -787,7 +787,7 @@ struct
         .level = 89,
         .nature = NATURE_JOLLY,
         .evs = {252, 0, 0, 0, 6, 252},
-        .moves = {MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_THUNDERBOLT}
+        .moves = {MOVE_PSYCHIC, MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_THUNDERBOLT}
     },
     {
         .species = SPECIES_NECROZMADUSK,

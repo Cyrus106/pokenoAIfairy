@@ -696,8 +696,9 @@
 #define SPECIES_PIDGEOT2  690
 #define SPECIES_SABLEYE2  691
 #define SPECIES_SHARPEDO2  692
+#define SPECIES_PALKIA  693
 //You want to add +1 to the EGG. It must be the last entry
-#define SPECIES_EGG 693
+#define SPECIES_EGG 694
 
 #define NUM_SPECIES SPECIES_EGG
 

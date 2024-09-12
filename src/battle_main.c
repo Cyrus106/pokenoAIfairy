@@ -537,6 +537,7 @@ const struct TrainerMoney gTrainerMoneyTable[] =
     {TRAINER_CLASS_SNAGGER, 70},
     {TRAINER_CLASS_SWEETHEART, 70},
     {TRAINER_CLASS_REVENGEANCED, 70},
+    {TRAINER_CLASS_MAKSIM, 70},
     {0xFF, 5}, // Any trainer class not listed above uses this
 };
 

@@ -10725,6 +10725,7 @@ const u16 sLucario2LevelUpLearnset[] = {
     LEVEL_UP_MOVE(55, MOVE_CLOSE_COMBAT),
     LEVEL_UP_MOVE(60, MOVE_CLANGING_SCALES),
     LEVEL_UP_MOVE(65, MOVE_EXTREME_SPEED),
+    LEVEL_UP_MOVE(75, MOVE_PHOTON_GEYSER),
     LEVEL_UP_END
 };
 
@@ -12565,6 +12566,13 @@ const u16 sWalkingwakeLevelUpLearnset[] = {
 };
 
 const u16 sRagingboltLevelUpLearnset[] = {
+ LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
+    LEVEL_UP_MOVE( 1, MOVE_DISABLE),
+    LEVEL_UP_MOVE(11, MOVE_BARRIER),
+    LEVEL_UP_END
+};
+
+const u16 sPalkiaLevelUpLearnset[] = {
  LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_DISABLE),
     LEVEL_UP_MOVE(11, MOVE_BARRIER),

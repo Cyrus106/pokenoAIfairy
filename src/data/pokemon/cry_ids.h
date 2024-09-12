@@ -416,4 +416,5 @@ const u16 gSpeciesIdToCryId[] =
     [SPECIES_PIDGEOT2 - 277]   = 666,
     [SPECIES_SABLEYE2 - 277]   = 667,
     [SPECIES_SHARPEDO2 - 277]   = 668,
+    [SPECIES_PALKIA - 277]   = 669,
 };

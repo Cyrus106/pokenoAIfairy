@@ -145,3 +145,26 @@ SouthernIsland_Interior_Movement_LatiApproach:
 	walk_down
 	walk_down
 	step_end
+
+SouthernIsland_Interior_EventScript_MaxineForm1::
+	trainerbattle_single TRAINER_MAXINEFORM1, SouthernIsland_Interior_Text_MaxineForm1Intro, SouthernIsland_Interior_Text_MaxineForm1Defeated
+	 msgbox SouthernIsland_Interior_Text_MaxineForm2Intro, MSGBOX_DEFAULT
+    trainerbattle_no_intro TRAINER_MAXINEFORM2, SouthernIsland_Interior_Text_MaxineForm2Defeated
+	msgbox SouthernIsland_Interior_Text_MaxineForm1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SouthernIsland_Interior_Text_MaxineForm1Intro:
+	.string "It's me, Plutt! You're gonna be\n"
+	.string "recompleted!$"
+
+SouthernIsland_Interior_Text_MaxineForm1Defeated:
+	.string "Dangerously cheesy!$"
+
+SouthernIsland_Interior_Text_MaxineForm1PostBattle:
+	.string "Welcome to the Outer Wilds Club.$"
+
+SouthernIsland_Interior_Text_MaxineForm2Intro:
+	.string "HOW DARE YOU!$"	
+
+	SouthernIsland_Interior_Text_MaxineForm2Defeated:
+	.string "Dangerously cheesy!$"

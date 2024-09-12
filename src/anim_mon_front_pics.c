@@ -673,6 +673,7 @@ const u32 gMonFrontPic_Lucario2[] = INCBIN_U32("graphics/pokemon/lucario2/anim_f
 const u32 gMonFrontPic_Pidgeot2[] = INCBIN_U32("graphics/pokemon/pidgeot2/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sableye2[] = INCBIN_U32("graphics/pokemon/sableye2/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sharpedo2[] = INCBIN_U32("graphics/pokemon/sharpedo2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Palkia[] = INCBIN_U32("graphics/pokemon/palkia/anim_front.4bpp.lz");
 //Don't write past this point
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 

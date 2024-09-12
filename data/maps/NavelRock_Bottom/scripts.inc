@@ -91,3 +91,5 @@ NavelRock_Text_PluttDefeated:
 
 NavelRock_Text_PluttPostBattle:
 	.string "Welcome to the Outer Wilds Club.$"
+
+	

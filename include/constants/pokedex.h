@@ -674,6 +674,7 @@ enum {
     NATIONAL_DEX_PIDGEOT2,
     NATIONAL_DEX_SABLEYE2,
     NATIONAL_DEX_SHARPEDO2,
+    NATIONAL_DEX_PALKIA,
 
     // Old Unown
     NATIONAL_DEX_OLD_UNOWN_B,
@@ -706,7 +707,7 @@ enum {
 
 #define KANTO_DEX_COUNT     NATIONAL_DEX_MEW
 #define JOHTO_DEX_COUNT     NATIONAL_DEX_CELEBI
-#define NATIONAL_DEX_COUNT  NATIONAL_DEX_SHARPEDO2	 //Just edit the last pokemon to be the last one you made
+#define NATIONAL_DEX_COUNT  NATIONAL_DEX_PALKIA	 //Just edit the last pokemon to be the last one you made
 
 // Hoenn Pokedex order
 enum {
@@ -1194,6 +1195,7 @@ enum {
     HOENN_DEX_PIDGEOT2,
     HOENN_DEX_SABLEYE2,
     HOENN_DEX_SHARPEDO2,
+    HOENN_DEX_PALKIA,
 
     //Add your last pokemon here
     // End of Hoenn Dex (see HOENN_DEX_COUNT)
@@ -1410,6 +1412,6 @@ enum {
     
 };
 
-#define HOENN_DEX_COUNT    HOENN_DEX_SHARPEDO2 //Change the pokemon to be the last in the entry
+#define HOENN_DEX_COUNT    HOENN_DEX_PALKIA //Change the pokemon to be the last in the entry
 
 #endif // GUARD_CONSTANTS_POKEDEX_H

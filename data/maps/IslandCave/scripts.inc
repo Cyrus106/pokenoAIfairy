@@ -123,24 +123,21 @@ IslandCave_EventScript_Josh::
 	end
 
 IslandCave_Text_TyrantJoshIntro:
-	.string "JIM:Oy,'arry, is that the bloody bobby?\n"
-	.string "HARRY: Bloody 'ell its certainly not a\l"
-	.string "parcel delivery. What you reckon she is?\l"
-	.string "JIM: Trouble, she's nothing but trouble.\l"
-	.string "let's give her the friendly London\l"
-	.string "greeting and snuff her out before she\l"
-	.string "tells the Bobby we're 'ere, ey 'arry?\l"
-	.string "HARRY: Cheerio then we can have some\l"
-	.string "fish and chips at the pub.$"
+	.string "When we grow up, and when we grow old,\n"
+	.string "we forget the things we used to love.\l"
+	.string "The people, the places, the animals.\l"
+	.string "They all begin to fade into the mists of\l"
+	.string "time. Let me remind you where you came\l"
+	.string "from.$"
 
 IslandCave_Text_TyrantJoshDefeated:
-	.string "JIM: Aw, bollocks! We've done it now.\n"
-	.string "HARRY: We really buggered it this time.\l"
-	.string "The UN will have us on a platter for\l"
-	.string "supper for failing again.$"
+	.string "Did you notice? Not everything here is\n"
+	.string "old. You can't live in the past. Even in\l"
+	.string "your memories, the future shapes your\l"
+	.string "world.$"
 
 
 IslandCave_Text_TyrantJoshPostBattle:
-	.string "If you tell the bobby we are 'ere, our\n"
-	.string "country will make sure you end up the\l"
-	.string "next Spencer Perceval .$"
+	.string "Well done. May your past form a strong\n"
+	.string "foundation as you embrace the future.\l"
+	.string "It's looking bright.$"

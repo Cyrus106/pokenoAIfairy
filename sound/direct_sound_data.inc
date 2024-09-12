@@ -3062,6 +3062,10 @@ Cry_Sableye2::
 Cry_Sharpedo2:: 
    .incbin "sound/direct_sound_samples/cries/sharpedo2.bin"
 
+    .align 2
+Cry_Palkia:: 
+   .incbin "sound/direct_sound_samples/cries/palkia.bin"
+
 
 
 

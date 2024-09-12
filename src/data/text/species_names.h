@@ -692,4 +692,5 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_PIDGEOT2] = _("PIDGEOT"),
     [SPECIES_SABLEYE2] = _("SABLEYE"),
     [SPECIES_SHARPEDO2] = _("SHARPEDO"),
+    [SPECIES_PALKIA] = _("PALKIA"),
 };

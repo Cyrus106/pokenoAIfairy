@@ -791,6 +791,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(PIDGEOT2),
     SPECIES_TO_HOENN(SABLEYE2),
     SPECIES_TO_HOENN(SHARPEDO2),
+    SPECIES_TO_HOENN(PALKIA),
 };
 
 // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -1488,6 +1489,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(PIDGEOT2),
     SPECIES_TO_NATIONAL(SABLEYE2),
     SPECIES_TO_NATIONAL(SHARPEDO2),
+    SPECIES_TO_NATIONAL(PALKIA),
 };
 
 // Assigns all Hoenn Dex Indexes to a National Dex Index
@@ -2160,6 +2162,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(PIDGEOT2),
     HOENN_TO_NATIONAL(SABLEYE2),
     HOENN_TO_NATIONAL(SHARPEDO2),
+    HOENN_TO_NATIONAL(PALKIA),
 
     //Don't write beyond this point						    
     HOENN_TO_NATIONAL(OLD_UNOWN_B),
@@ -2910,6 +2913,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_PIDGEOT2 - 1]    = ANIM_FRONT_FLIP,
     [SPECIES_SABLEYE2 - 1]    = ANIM_GLOW_BLACK,
     [SPECIES_SHARPEDO2 - 1]    = ANIM_H_JUMPS_V_STRETCH_TWICE,
+    [SPECIES_PALKIA - 1]    = ANIM_H_SHAKE,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =

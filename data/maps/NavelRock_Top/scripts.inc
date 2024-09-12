@@ -115,3 +115,18 @@ NavelRock_Top_Movement_HoOhAppear:
 	walk_in_place_down
 	walk_in_place_down
 	step_end
+
+NavelRock_Top_EventScript_Maksim::
+	trainerbattle_single TRAINER_MAKSIM, NavelRock_Text_MaksimIntro, NavelRock_Text_MaksimDefeated
+	msgbox NavelRock_Text_MaksimPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NavelRock_Text_MaksimIntro:
+	.string "I am the wall of the gods.$"
+
+
+NavelRock_Text_MaksimDefeated:
+	.string ".....My watch is over.$"
+
+NavelRock_Text_MaksimPostBattle:
+	.string "zzzzzzzz.....$"

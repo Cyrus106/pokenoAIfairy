@@ -3469,6 +3469,11 @@ const struct MonCoords gMonBackPicCoords[] =
       .size = MON_COORDS_SIZE(64, 64),
      .y_offset = 3,
     },
+    [SPECIES_PALKIA] =
+    {
+      .size = MON_COORDS_SIZE(64, 64),
+     .y_offset = 6,
+    },
     //Don't write past this
     [SPECIES_EGG] =
     {

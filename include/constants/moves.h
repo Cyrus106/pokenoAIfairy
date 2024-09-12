@@ -417,8 +417,10 @@
 #define MOVE_BRAVE_BIRD 413
 #define MOVE_BULLET_PUNCH_2 414
 #define MOVE_BULLDOZE 415
+#define MOVE_SUNSTEEL_STRIKE 416
+#define MOVE_PHOTON_GEYSER 417
 
-#define MOVES_COUNT 416
+#define MOVES_COUNT 418
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

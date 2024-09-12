@@ -3454,6 +3454,10 @@ const u8 gSharpedo2PokedexText[] = _(
 "text here \n"
 "text here");
 
+const u8 gPalkiaPokedexText[] = _(
+"text here \n"
+"text here");
+
 
 
 

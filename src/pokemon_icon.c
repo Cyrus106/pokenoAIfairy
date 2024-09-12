@@ -717,6 +717,9 @@ const u8 *const gMonIconTable[] =
     [SPECIES_PIDGEOT2] = gMonIcon_Pidgeot2,
     [SPECIES_SABLEYE2] = gMonIcon_Sableye2,
     [SPECIES_SHARPEDO2] = gMonIcon_Sharpedo2,
+    [SPECIES_PALKIA] = gMonIcon_Palkia,
+    
+
 
     //Don't write past this
     [SPECIES_EGG] = gMonIcon_Egg,
@@ -1444,6 +1447,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_PIDGEOT2] = 0,
     [SPECIES_SABLEYE2] = 2,
     [SPECIES_SHARPEDO2] = 0,
+    [SPECIES_PALKIA] = 2,
 
     [SPECIES_EGG] = 1,
     [SPECIES_UNOWN_B] = 0,

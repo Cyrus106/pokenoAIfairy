@@ -4679,6 +4679,13 @@ const u32 gMonShinyPalette_Sharpedo2[] = INCBIN_U32("graphics/pokemon/sharpedo2/
 const u8 gMonIcon_Sharpedo2[] = INCBIN_U8("graphics/pokemon/sharpedo2/icon.4bpp");
 const u8 gMonFootprint_Sharpedo2[] = INCBIN_U8("graphics/pokemon/sharpedo2/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Palkia[] = INCBIN_U32("graphics/pokemon/palkia/front.4bpp.lz");
+const u32 gMonPalette_Palkia[] = INCBIN_U32("graphics/pokemon/palkia/normal.gbapal.lz");
+const u32 gMonBackPic_Palkia[] = INCBIN_U32("graphics/pokemon/palkia/back.4bpp.lz");
+const u32 gMonShinyPalette_Palkia[] = INCBIN_U32("graphics/pokemon/palkia/shiny.gbapal.lz");
+const u8 gMonIcon_Palkia[] = INCBIN_U8("graphics/pokemon/palkia/icon.4bpp");
+const u8 gMonFootprint_Palkia[] = INCBIN_U8("graphics/pokemon/palkia/footprint.1bpp");
+
 //Don't go past this point
 const u32 gMonStillFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/front.4bpp.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");

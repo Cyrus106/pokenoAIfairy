@@ -693,4 +693,5 @@ const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_PIDGEOT2] = sPidgeot2LevelUpLearnset,
     [SPECIES_SABLEYE2] = sSableye2LevelUpLearnset,
     [SPECIES_SHARPEDO2] = sSharpedo2LevelUpLearnset,
+    [SPECIES_PALKIA] = sPalkiaLevelUpLearnset,
 };

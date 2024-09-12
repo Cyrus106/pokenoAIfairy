@@ -669,6 +669,7 @@ gCryTable::
     cry  Cry_Pidgeot2 
     cry  Cry_Sableye2 
     cry  Cry_Sharpedo2 
+	cry  Cry_Palkia 
 	
 	.align 2
 gCryTable_Reverse::
@@ -1341,3 +1342,4 @@ gCryTable_Reverse::
     cry_reverse  Cry_Pidgeot2 
     cry_reverse  Cry_Sableye2 
     cry_reverse  Cry_Sharpedo2 
+    cry_reverse  Cry_Palkia 

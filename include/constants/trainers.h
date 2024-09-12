@@ -365,6 +365,7 @@
 #define TRAINER_CLASS_SNAGGER        0x46
 #define TRAINER_CLASS_SWEETHEART     0x47
 #define TRAINER_CLASS_REVENGEANCED   0x48
+#define TRAINER_CLASS_MAKSIM         0x49
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

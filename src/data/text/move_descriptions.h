@@ -1684,8 +1684,13 @@ static const u8 sBulldozeDescription[] = _(
     "A ground attack that\n"
     "lowers the foe's SPEED.");
 
+static const u8 sSunSteelStrikeDescription[] = _(
+    "A sun-fueled strike that\n"
+    "ignores abilities.");
 
-
+static const u8 sPhotonGeyserDescription[] = _(
+    "A Powerful PSYCHIC blast\n"
+    "without peer.");
 
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
@@ -2106,4 +2111,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_BRAVE_BIRD - 1] = sBraveBirdDescription,
     [MOVE_BULLET_PUNCH_2 - 1] = sBulletPunch2Description,
     [MOVE_BULLDOZE - 1] = sBulldozeDescription,
+    [MOVE_SUNSTEEL_STRIKE - 1] = sSunSteelStrikeDescription,
+    [MOVE_PHOTON_GEYSER - 1] = sPhotonGeyserDescription,
 };

@@ -90,24 +90,28 @@ DesertRuins_EventScript_JimandHarry::
 	end
 
 DesertRuins_Text_JimandHarryIntro:
-	.string "JIM:Oy,'arry, is that the bloody bobby?\n"
-	.string "HARRY: Bloody 'ell its certainly not a\l"
-	.string "parcel delivery. What you reckon she is?\l"
-	.string "JIM: Trouble, she's nothing but trouble.\l"
-	.string "let's give her the friendly London\l"
-	.string "greeting and snuff her out before she\l"
-	.string "tells the bobby we're 'ere, ey 'arry?\l"
-	.string "HARRY: Cheerio then we can have some\l"
-	.string "fish and chips at the pub.$"
+	.string "JIM:Why did King Ramses endure 7\n"
+	.string "plagues and still release Moses'\l"
+	.string "people? He did the hard part, he just\l"
+	.string "choked and gave up!\l"
+	.string "HARRY:Please don't use any ape pokemon\l"
+	.string "against me or I'll forefeit, no it's not\l"
+	.string "typist, I don't care what pokeX says,\l"
+	.string "Apes are scary$"
+
 
 DesertRuins_Text_JimandHarryDefeated:
-	.string "JIM: Aw, bollocks! We've done it now.\n"
-	.string "HARRY: We really buggered it this time.\l"
-	.string "The UN will have us on a platter for\l"
-	.string "supper for failing again.$"
+	.string "JIM: -I sputter so hard and start\n"
+	.string "coughing and some green stuff came out\l"
+	.string "over your pokemon-\l"
+	.string "HARRY:..........Uuugh How long was I\l"
+	.string "fucking muted? I thought you were just\l"
+	.string "ignoring me$"
 
 
 DesertRuins_Text_JimandHarryPostBattle:
-	.string "If you tell the bobby we are 'ere, our\n"
-	.string "country will make sure you end up the\l"
-	.string "next Spencer Perceval .$"
+	.string "JIM:Do you have any idea how soaked my\n"
+	.string "armpits are right now?\l"
+	.string "HARRY:Listen, I know you think you're\l"
+	.string "really good, but I let you win, okay? \l"
+	.string "(he is visibly holding back tears)$"
