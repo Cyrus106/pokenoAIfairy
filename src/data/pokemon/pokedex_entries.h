@@ -7771,4 +7771,71 @@ const struct PokedexEntry gPokedexEntries[] =
        .trainerScale = 290,
         .trainerOffset = 2,
     },
+
+        [NATIONAL_DEX_PIPLUP2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gPiplup2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_KONYA2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gKonya2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_STUFFUL2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gStufful2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_LUNALA] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gLunalaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_BUTTERFREE2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gButterfree2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+    [NATIONAL_DEX_DIANCIE2] =
+   {
+        .categoryName = _("NEW SPECIES"),
+        .height = 15,
+        .weight = 330,
+       .description = gDiancie2PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+       .trainerScale = 290,
+        .trainerOffset = 2,
+    },
 };

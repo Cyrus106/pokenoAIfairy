@@ -674,6 +674,12 @@ const u32 gMonFrontPic_Pidgeot2[] = INCBIN_U32("graphics/pokemon/pidgeot2/anim_f
 const u32 gMonFrontPic_Sableye2[] = INCBIN_U32("graphics/pokemon/sableye2/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Sharpedo2[] = INCBIN_U32("graphics/pokemon/sharpedo2/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Palkia[] = INCBIN_U32("graphics/pokemon/palkia/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Piplup2[] = INCBIN_U32("graphics/pokemon/piplup2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Konya2[] = INCBIN_U32("graphics/pokemon/konya2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Stufful2[] = INCBIN_U32("graphics/pokemon/stufful2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Lunala[] = INCBIN_U32("graphics/pokemon/lunala/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Butterfree2[] = INCBIN_U32("graphics/pokemon/butterfree2/anim_front.4bpp.lz");
+const u32 gMonFrontPic_Diancie2[] = INCBIN_U32("graphics/pokemon/diancie2/anim_front.4bpp.lz");
 //Don't write past this point
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 

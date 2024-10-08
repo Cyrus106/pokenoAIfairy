@@ -216,6 +216,7 @@ PlayersHouse_1F_EventScript_WatchGymBroadcast::
 	fadedefaultbgm
 	special TurnOffTVScreen
 	setflag FLAG_SYS_TV_HOME
+	setflag FLAG_HIDE_MAX2
 	delay 35
 	return
 

@@ -417,4 +417,10 @@ const u16 gSpeciesIdToCryId[] =
     [SPECIES_SABLEYE2 - 277]   = 667,
     [SPECIES_SHARPEDO2 - 277]   = 668,
     [SPECIES_PALKIA - 277]   = 669,
+    [SPECIES_PIPLUP2 - 277]   = 670,
+    [SPECIES_KONYA2 - 277]   = 671,
+    [SPECIES_STUFFUL2 - 277]   = 672,
+    [SPECIES_LUNALA - 277]   = 673,
+    [SPECIES_BUTTERFREE2 - 277]   = 674,
+    [SPECIES_DIANCIE2 - 277]   = 675,
 };

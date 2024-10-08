@@ -1,5 +1,6 @@
 .set LOCALID_LUGIA, 1
 
+
 NavelRock_Bottom_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, NavelRock_Bottom_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, NavelRock_Bottom_OnResume
@@ -28,6 +29,8 @@ NavelRock_Bottom_EventScript_TryRemoveLugia::
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
 	removeobject LOCALID_LUGIA
 	return
+
+
 
 NavelRock_Bottom_EventScript_Lugia::
 	lock
@@ -78,18 +81,32 @@ NavelRock_Bottom_EventScript_RanFromLugia::
 	end
 
 NavelRock_EventScript_Plutt::
+	lock
 	trainerbattle_single TRAINER_PLUTT, NavelRock_Text_PluttIntro, NavelRock_Text_PluttDefeated
 	msgbox NavelRock_Text_PluttPostBattle, MSGBOX_AUTOCLOSE
+	setflag FLAG_HIDE_PLUTT
+	release
 	end
 
 NavelRock_Text_PluttIntro:
-	.string "It's me, Plutt! You're gonna be\n"
-	.string "recompleted!$"
+	.string "Who are you, and why are you here? . . .\n"
+	.string "Oh, I see. I'm here to return Lugia to\l"
+	.string "their rightful place in hopes to dispel\l"
+	.string "the corruption they have suffered. . . .\l"
+	.string "You mean, you're actually here to make\l"
+	.string "Lugia apart of your team? Sorry, but as\l"
+	.string "a guardian I cannot allow that. If you\l"
+	.string "are insistent on this, then by force I\l"
+	.string "will make you listen!$"
 
 NavelRock_Text_PluttDefeated:
-	.string "Dangerously cheesy!$"
+	.string "Through battle, Lugia has returned to\n"
+	.string "its original form!?! This is great news!$"
+
 
 NavelRock_Text_PluttPostBattle:
-	.string "Welcome to the Outer Wilds Club.$"
+	.string "Even though I am defeated, I still\n"
+	.string "cannot allow you to take Lugia away.$"
+
 
 	

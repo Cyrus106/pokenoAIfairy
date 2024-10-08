@@ -718,6 +718,12 @@ const u8 *const gMonIconTable[] =
     [SPECIES_SABLEYE2] = gMonIcon_Sableye2,
     [SPECIES_SHARPEDO2] = gMonIcon_Sharpedo2,
     [SPECIES_PALKIA] = gMonIcon_Palkia,
+    [SPECIES_PIPLUP2] = gMonIcon_Piplup2,
+    [SPECIES_KONYA2] = gMonIcon_Konya2,
+    [SPECIES_STUFFUL2] = gMonIcon_Stufful2,
+    [SPECIES_LUNALA] = gMonIcon_Lunala,
+    [SPECIES_BUTTERFREE2] = gMonIcon_Butterfree2,
+    [SPECIES_DIANCIE2] = gMonIcon_Diancie2,
     
 
 
@@ -1448,6 +1454,12 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_SABLEYE2] = 2,
     [SPECIES_SHARPEDO2] = 0,
     [SPECIES_PALKIA] = 2,
+    [SPECIES_PIPLUP2] = 0,
+    [SPECIES_KONYA2] = 1,
+    [SPECIES_STUFFUL2] = 0,
+    [SPECIES_LUNALA] = 2,
+    [SPECIES_BUTTERFREE2] = 0,
+    [SPECIES_DIANCIE2] = 0,
 
     [SPECIES_EGG] = 1,
     [SPECIES_UNOWN_B] = 0,

@@ -7,6 +7,7 @@ SouthernIsland_Exterior_MapScripts::
 
 SouthernIsland_Exterior_OnTransition:
 	setflag FLAG_LANDMARK_SOUTHERN_ISLAND
+	call_if_set FLAG_HIDE_MAX, SouthernIsland_Interior_EventScript_Max2
 	end
 
 SouthernIsland_Exterior_EventScript_Sailor::
@@ -24,6 +25,11 @@ SouthernIsland_Exterior_EventScript_Sailor::
 	call Common_EventScript_FerryDepartIsland
 	warp MAP_LILYCOVE_CITY_HARBOR, 8, 11
 	waitstate
+	release
+	end
+
+SouthernIsland_Interior_EventScript_Max2::
+	clearflag FLAG_HIDE_MAX2
 	release
 	end
 

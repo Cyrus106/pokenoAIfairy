@@ -133,7 +133,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_SCRATCH] =
     {
         .effect = EFFECT_HIT,
-        .power = 40,
+        .power = 50,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 35,
@@ -432,7 +432,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_TACKLE] =
     {
         .effect = EFFECT_HIT,
-        .power = 35,
+        .power = 50,
         .type = TYPE_NORMAL,
         .accuracy = 95,
         .pp = 35,

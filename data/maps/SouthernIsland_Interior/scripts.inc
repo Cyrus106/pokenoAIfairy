@@ -112,6 +112,16 @@ SouthernIsland_Interior_EventScript_SetLatiasBattleVars::
 	seteventmon SPECIES_LATIAS, 50, ITEM_SOUL_DEW
 	return
 
+SouthernIsland_Interior_EventScript_GameClearMale::
+	setrespawn HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F
+	fadescreenspeed FADE_TO_BLACK, 24
+	special GameClear
+	waitstate
+	releaseall
+	end
+
+
+
 SouthernIsland_Interior_Movement_CameraPanUp:
 	walk_up
 	walk_up
@@ -148,23 +158,79 @@ SouthernIsland_Interior_Movement_LatiApproach:
 
 SouthernIsland_Interior_EventScript_MaxineForm1::
 	trainerbattle_single TRAINER_MAXINEFORM1, SouthernIsland_Interior_Text_MaxineForm1Intro, SouthernIsland_Interior_Text_MaxineForm1Defeated
-	 msgbox SouthernIsland_Interior_Text_MaxineForm2Intro, MSGBOX_DEFAULT
-    trainerbattle_no_intro TRAINER_MAXINEFORM2, SouthernIsland_Interior_Text_MaxineForm2Defeated
 	msgbox SouthernIsland_Interior_Text_MaxineForm1PostBattle, MSGBOX_AUTOCLOSE
+	setflag FLAG_HIDE_MAX
 	end
 
-SouthernIsland_Interior_Text_MaxineForm1Intro:
-	.string "It's me, Plutt! You're gonna be\n"
-	.string "recompleted!$"
+SouthernIsland_Interior_EventScript_MaxineForm2::
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	trainerbattle_single TRAINER_MAXINEFORM2, SouthernIsland_Interior_Text_MaxineForm2Intro, SouthernIsland_Interior_Text_MaxineForm2Defeated
+	goto SouthernIsland_Interior_Text_MaxineForm2PostBattleevent
+	end
+
+SouthernIsland_Interior_Text_MaxineForm1Intro: 
+	.string "Oh, hello there! I'm surprised you've\n"
+	.string "found my humble abode. I like to hang\l"
+	.string "out in this garden with my sweet\l"
+	.string "husband and our Pokemon, but he's\l"
+	.string "currently out scavenging Pokedolls for\l"
+	.string "my collection. You seem like a nice\l"
+	.string "person- would you like to have a\l"
+	.string "friendly battle and some treats until\l"
+	.string "my sweetheart comes home?$"
 
 SouthernIsland_Interior_Text_MaxineForm1Defeated:
-	.string "Dangerously cheesy!$"
+	.string "What the hell? Are you outta your mind,\n"
+	.string "you psycho?!$"
 
 SouthernIsland_Interior_Text_MaxineForm1PostBattle:
-	.string "Welcome to the Outer Wilds Club.$"
+	.string "You walk into my garden and ruthlessly\n"
+	.string "beat the shit out of my babies, and you\l"
+	.string "don't even have anything to say? That\l"
+	.string "champion badge doesn't mean shit if\l"
+	.string "you're going to be a dick and use really\l"
+	.string "powerful moves on little guys in a\l"
+	.string "friendly battle. You're a disgrace of a\l"
+	.string "trainer. Leave this place and never\l"
+	.string "return, or there will be hell to pay.$"
 
 SouthernIsland_Interior_Text_MaxineForm2Intro:
-	.string "HOW DARE YOU!$"	
+	.string "Are you fucking kidding me?! You've got\n"
+	.string "some nerve coming back here, you\l"
+	.string "asshole kid. Do you think it's fun to\l"
+	.string "beat up on people? Not anymore. Today,\l"
+	.string "you learn what a real battle is. You're\l"
+	.string "going to feel every ounce of pain you\l"
+	.string "inflicted on my precious friends.\l"
+	.string "Prepare yourself and accept the\l"
+	.string "consequences of your actions, shit for\l"
+	.string "brains.$"	
 
-	SouthernIsland_Interior_Text_MaxineForm2Defeated:
-	.string "Dangerously cheesy!$"
+SouthernIsland_Interior_Text_MaxineForm2Defeated:
+	.string "W.. What?$"
+
+SouthernIsland_Interior_Text_MaxineForm2PostBattleevent:
+	msgbox SouthernIsland_Interior_Text_MaxineForm2PostBattle, MSGBOX_DEFAULT
+	closemessage
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, SouthernIsland_Interior_EventScript_GameClearMale
+	goto_if_eq VAR_RESULT, FEMALE, SouthernIsland_Interior_EventScript_GameClearMale
+	end
+
+
+SouthernIsland_Interior_Text_MaxineForm2PostBattle:
+	.string "What kind of monster are you? What are\n"
+	.string "you doing to your poor Pokemon to make\l"
+	.string "them battle so fiercely? They act as if\l"
+	.string "they'll die if they lose. Please, I beg of\l"
+	.string "you, whatever you're doing to them.. it\l"
+	.string "must end- right here, right now. I pray\l"
+	.string "that kindness still exists in your heart\l"
+	.string "and that you'll retire, for the sake of\l"
+	.string "your Pokemon.$"
+

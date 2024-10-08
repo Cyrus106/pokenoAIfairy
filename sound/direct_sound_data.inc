@@ -3066,6 +3066,30 @@ Cry_Sharpedo2::
 Cry_Palkia:: 
    .incbin "sound/direct_sound_samples/cries/palkia.bin"
 
+      .align 2
+Cry_Piplup2:: 
+   .incbin "sound/direct_sound_samples/cries/piplup.bin"
+
+   .align 2
+Cry_Konya2:: 
+   .incbin "sound/direct_sound_samples/cries/konya.bin"
+
+   .align 2
+Cry_Stufful2:: 
+   .incbin "sound/direct_sound_samples/cries/stufful.bin"
+
+   .align 2
+Cry_Lunala:: 
+   .incbin "sound/direct_sound_samples/cries/lunala.bin"
+
+   .align 2
+Cry_Butterfree2:: 
+   .incbin "sound/direct_sound_samples/cries/butterfree.bin"
+
+   .align 2
+Cry_Diancie2:: 
+   .incbin "sound/direct_sound_samples/cries/diancie2.bin"
+
 
 
 

@@ -6554,6 +6554,48 @@ static const union AnimCmd sAnim_PALKIA_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_PIPLUP2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_KONYA2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_STUFFUL2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_LUNALA_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_BUTTERFREE2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DIANCIE2_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
 
 
 //Don't go past this point
@@ -10192,6 +10234,36 @@ static const union AnimCmd *const sAnims_PALKIA[]={
     sAnim_GeneralFrame0,
     sAnim_PALKIA_1
 };
+
+static const union AnimCmd *const sAnims_PIPLUP2[]={
+    sAnim_GeneralFrame0,
+    sAnim_PIPLUP2_1
+};
+
+static const union AnimCmd *const sAnims_KONYA2[]={
+    sAnim_GeneralFrame0,
+    sAnim_KONYA2_1
+};
+
+static const union AnimCmd *const sAnims_STUFFUL2[]={
+    sAnim_GeneralFrame0,
+    sAnim_STUFFUL2_1
+};
+
+static const union AnimCmd *const sAnims_LUNALA[]={
+    sAnim_GeneralFrame0,
+    sAnim_LUNALA_1
+};
+
+static const union AnimCmd *const sAnims_BUTTERFREE2[]={
+    sAnim_GeneralFrame0,
+    sAnim_BUTTERFREE2_1
+};
+
+static const union AnimCmd *const sAnims_DIANCIE2[]={
+    sAnim_GeneralFrame0,
+    sAnim_DIANCIE2_1
+};
 //don't write past this point
 
 static const union AnimCmd *const sAnims_EGG[] ={
@@ -11033,6 +11105,12 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(SABLEYE2),
     ANIM_CMD(SHARPEDO2),
     ANIM_CMD(PALKIA),
+    ANIM_CMD(PIPLUP2),
+    ANIM_CMD(KONYA2),
+    ANIM_CMD(STUFFUL2),
+    ANIM_CMD(LUNALA),
+    ANIM_CMD(BUTTERFREE2),
+    ANIM_CMD(DIANCIE2),
     //don't write past this
     ANIM_CMD(EGG),
     ANIM_CMD(UNOWN_B),

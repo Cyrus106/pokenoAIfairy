@@ -3458,7 +3458,29 @@ const u8 gPalkiaPokedexText[] = _(
 "text here \n"
 "text here");
 
+const u8 gPiplup2PokedexText[] = _(
+"text here \n"
+"text here");
 
+const u8 gKonya2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gStufful2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gLunalaPokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gButterfree2PokedexText[] = _(
+"text here \n"
+"text here");
+
+const u8 gDiancie2PokedexText[] = _(
+"text here \n"
+"text here");
 
 
 

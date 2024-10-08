@@ -694,4 +694,10 @@ const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_SABLEYE2] = sSableye2LevelUpLearnset,
     [SPECIES_SHARPEDO2] = sSharpedo2LevelUpLearnset,
     [SPECIES_PALKIA] = sPalkiaLevelUpLearnset,
+    [SPECIES_PIPLUP2] = sPiplup2LevelUpLearnset,
+    [SPECIES_KONYA2] = sKonya2LevelUpLearnset,
+    [SPECIES_STUFFUL2] = sStufful2LevelUpLearnset,
+    [SPECIES_LUNALA] = sLunalaLevelUpLearnset,
+    [SPECIES_BUTTERFREE2] = sButterfree2LevelUpLearnset,
+    [SPECIES_DIANCIE2] = sDiancie2LevelUpLearnset,
 };

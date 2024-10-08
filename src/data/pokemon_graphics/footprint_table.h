@@ -694,6 +694,12 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_SABLEYE2] = gMonFootprint_Sableye2,
     [SPECIES_SHARPEDO2] = gMonFootprint_Sharpedo2,
     [SPECIES_PALKIA] = gMonFootprint_Palkia,
+    [SPECIES_PIPLUP2] = gMonFootprint_Piplup2,
+    [SPECIES_KONYA2] = gMonFootprint_Konya2,
+    [SPECIES_STUFFUL2] = gMonFootprint_Stufful2,
+    [SPECIES_LUNALA] = gMonFootprint_Lunala,
+    [SPECIES_BUTTERFREE2] = gMonFootprint_Butterfree2,
+    [SPECIES_DIANCIE2] = gMonFootprint_Diancie2,
     //THE EGG IS THE LAST ONE
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
     
