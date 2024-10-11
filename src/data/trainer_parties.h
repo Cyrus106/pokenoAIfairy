@@ -15394,14 +15394,14 @@ static const struct TrainerMonItemCustomMoves sParty_Tiana[] = {
     .lvl = 7,
     .species = SPECIES_SPINDA,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_METRONOME, MOVE_FAKE_OUT, MOVE_LEER, MOVE_TAIL_WHIP}
+    .moves = {MOVE_METRONOME, MOVE_FAKE_OUT, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 8,
     .species = SPECIES_TOGEPI,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_METRONOME, MOVE_FAKE_OUT, MOVE_LEER, MOVE_TAIL_WHIP}
+    .moves = {MOVE_METRONOME, MOVE_FAKE_OUT, MOVE_NONE, MOVE_NONE}
     }
 };
 
