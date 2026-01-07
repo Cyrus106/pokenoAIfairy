@@ -3246,15 +3246,15 @@ static void Cmd_getexp(void)
 
     switch (gBattleScripting.getexpState)
     {
-    case 0: // check if should receive exp at all
-        if (GetBattlerSide(gBattlerFainted) != B_SIDE_OPPONENT || (gBattleTypeFlags &
-             (BATTLE_TYPE_LINK
-              | BATTLE_TYPE_RECORDED_LINK
-              | BATTLE_TYPE_TRAINER_HILL
-              | BATTLE_TYPE_FRONTIER
-              | BATTLE_TYPE_SAFARI
-              | BATTLE_TYPE_BATTLE_TOWER
-              | BATTLE_TYPE_EREADER_TRAINER) &&  !IsLinkMaster()))
+    case 0: // check if should receive exp at all. Commented out to remove exp message. If you want to re-enable it, make sure to remove the extra ")"
+        if (GetBattlerSide(gBattlerFainted)) //!= B_SIDE_OPPONENT || (gBattleTypeFlags &
+             //(BATTLE_TYPE_LINK
+              //| BATTLE_TYPE_RECORDED_LINK
+             // | BATTLE_TYPE_TRAINER_HILL
+              //| BATTLE_TYPE_FRONTIER
+              //| BATTLE_TYPE_SAFARI
+             // | BATTLE_TYPE_BATTLE_TOWER
+             // | BATTLE_TYPE_EREADER_TRAINER) &&  !IsLinkMaster()))
         {
             gBattleScripting.getexpState = 6; // goto last case
         }
